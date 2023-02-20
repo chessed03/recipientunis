@@ -243,12 +243,16 @@
             <div class="carousel-inner">
                 @foreach( $carouselImages as $key => $slider )
                     <div class="carousel-item {{ ( $key == 0 ) ? 'active' : '' }}">
-                        <img src="{{ $slider->image_url }}" width="100%" height="100%" role="img" preserveAspectRatio="xMidYMid slice" alt="">
+                        <a href="{{ $slider->link_url }}">
+                            <img src="{{ $slider->image_url ?? '#' }}" width="100%" height="100%" role="img" preserveAspectRatio="xMidYMid slice" alt="">
+                        </a>
                         <div class="container">
                             <div class="carousel-caption text-start">
                                 <h1>{{ $slider->title }}</h1>
                                 <p>{{ $slider->description }}</p>
-                                <p><a class="btn btn-lg btn-primary" href="#">Ver más</a></p>
+                                @if( !is_null($slider->title) ) 
+                                    <p><a class="btn btn-lg btn-primary" href="{{ $slider->link_url ?? '#' }}">Ver más</a></p>
+                                @endif
                             </div>
                         </div>
                     </div>
@@ -270,10 +274,10 @@
 
         <div class="container marketing">
 
-            <div class="container text-center">
+            <div class="container">
                 <div class="row">
                     <div class="col-4 text-center">
-                        <img src="https://icipuebla.com/wp-content/uploads/2020/04/TITULO3.png" alt="" width="705" height="97" sizes="(max-width: 767px) 100vw, 33vw">
+                        <img src="https://icipuebla.com/wp-content/uploads/2020/04/TITULO3.png" alt="" width="350" height="7" sizes="(max-width: 767px) 100vw, 33vw">
                     </div>
                     <div class="col-4">
                         <img src="https://icipuebla.com/wp-content/uploads/2020/04/TITULO1.png" alt="" width="705" height="97" sizes="(max-width: 767px) 100vw, 33vw">
