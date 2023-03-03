@@ -158,19 +158,7 @@
 
     <header>
 
-{{--        <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-0 mx-lg-5">--}}
-{{--            <img src="https://icipuebla.com/wp-content/uploads/2020/05/ICI-logoo-min.png" class="shadow-1-strong rounded mb-4" alt="" width="204" height="82" title="ICI logoo-min">--}}
 
-{{--            <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">--}}
-{{--            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>admisiones@icipuebla.edu.mx +01 222 234 5464--}}
-{{--            </a>--}}
-
-{{--            <ul class="nav col-md-4 justify-content-end">--}}
-{{--            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Alumnos</a></li>--}}
-{{--            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Docentes</a></li>--}}
-{{--            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Calendario</a></li>--}}
-{{--            </ul>--}}
-{{--        </div>--}}
 
         <nav class="navbar navbar-expand-md navbar-white bg-white py-3">
             <div class="container-fluid">
