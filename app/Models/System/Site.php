@@ -22,6 +22,11 @@ class Site extends Model
 
     const ALIVE      = 1;
 
+    /*public function notice( $modelClass )
+    {
+        return $this->belongsTo($modelClass);
+    }*/
+
     public static function getSite( $server )
     {
 
@@ -46,6 +51,11 @@ class Site extends Model
 
         return CarouselImage::getCarouselImages( $id );
 
+    }
+
+    public static function getNotices()
+    {
+        return Notice::getNotices();
     }
 
 }

@@ -7,6 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta keywords = "estructura básica, estructura general"/>
         <meta description = "Sitio con Estructura General"/>
+        <meta name="csrf-token_UWl0eGVuTg==" content="{{ csrf_token() }}" />
 
         <title>Sitio en construcción</title>
 
@@ -287,11 +288,64 @@
 
         </div><!-- /.container -->
 
+
+        {{--@foreach( $notices as $not => $notice )
+            
+        {{ $notice->name }}
+        {{ $notice->description }}
+        {{ $notice->start_date }}
+        {{ $notice->finish_date }}
+        <br>
+        @endforeach--}}
+
+        <div class="row">
+
+            <div  class="col-6">
+                
+                <h1>Avisos</h1>
+
+                <div class="table-responsive">
+                    <table class="table table-hover tabla_carga_automatica" id="tabla_carga_automatica">
+                        <thead>
+                        <tr>
+                            <th class="text-center">#</th>
+                            <th class="text-center">Aviso</th>
+                            <th class="text-center">Fecha</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+
+            <div class="col-6">
+
+                <h1>Calendario</h1>
+
+            </div>
+
+        </div>
+
     </main>
 
-
+    <script
+  src="https://code.jquery.com/jquery-3.6.3.min.js"
+  integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+  crossorigin="anonymous"></script>
     <script src="{{ asset('assets/dist/js/bootstrap.bundle.min.js') }}"></script>
 
+    <script src="{{ asset('scripts/sites/index.blade.js') }}"></script>
+
+    <script>
+
+        let url_get_data_notices = '{{ route("site-getDataNotices") }}';
+    
+        cargaAutomatica( url_get_data_notices );
+
+        
+    </script>
 
     </body>
 

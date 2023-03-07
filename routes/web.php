@@ -26,7 +26,7 @@ use Illuminate\Support\Facades\Route;
         ->group(function () {
 
             Route::get('/', 'index')->name('index');
-            Route::any('show', 'show')->name('show');
+            Route::post('getDataNotices', 'getDataNotices')->name('getDataNotices');
 
         });
 

@@ -16,10 +16,25 @@ class SiteController extends Controller
 
         $carouselImages = Site::getCarouselImages( $site->id );
 
+        //$notices        = Site::getNotices();
+        
         return view('system.sites.index', [
-            'carouselImages' => $carouselImages
+            'carouselImages' => $carouselImages,
+            //'notices'        => $notices
         ]);
 
     }
+
+    public function getDataNotices( Request $request )
+    {
+
+        $site    = ___getSite();
+
+        $notices = Site::getNotices();
+        
+        return json_encode($notices);
+
+    }
+
 
 }
