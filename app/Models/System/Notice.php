@@ -4,7 +4,6 @@ namespace App\Models\System;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use Carbon\Carbon;
 
 class Notice extends Model
 {
@@ -28,20 +27,20 @@ class Notice extends Model
 
     }
 
-    public static function getNotices()
+    public static function getNotices( $dateSelected )
     {
         
         $result  = null;
-
+             
         $notices = self::where('status', self::ALIVE)
-                                ->get();
+                        ->whereDate('start_date', $dateSelected)
+                        ->get();
 
         $collectionNotices = [];
 
         foreach ( $notices as $not => $notice ) {
-            dd(Carbon::today());
+            
             $data = $notice->noticeable_type::where('id', $notice->noticeable_id)
-                ->whereDate('start_date', Carbon::today())
                 ->first();
             
             if ( $data ) {

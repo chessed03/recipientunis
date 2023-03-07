@@ -320,20 +320,26 @@
 
             </div>
 
-            <div class="col-6">
+            <div class="col-6 form-group">
 
                 <h1>Calendario</h1>
+
+                <input type="date" class="form-control" id="noticesDate" onchange="getNoticesDate()">
+
 
             </div>
 
         </div>
 
     </main>
-
+    
     <script
-  src="https://code.jquery.com/jquery-3.6.3.min.js"
-  integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
-  crossorigin="anonymous"></script>
+    src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+    crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+
     <script src="{{ asset('assets/dist/js/bootstrap.bundle.min.js') }}"></script>
 
     <script src="{{ asset('scripts/sites/index.blade.js') }}"></script>
@@ -341,8 +347,20 @@
     <script>
 
         let url_get_data_notices = '{{ route("site-getDataNotices") }}';
+
+        let date                 = moment().format('YYYY-MM-DD');
+        
+        cargaAutomatica( url_get_data_notices, date );
+
+        const getNoticesDate = () => {
+            
+            let selectedDate = $('#noticesDate').val();
+           
+            cargaAutomatica( url_get_data_notices, selectedDate );
+
+        }
     
-        cargaAutomatica( url_get_data_notices );
+        
 
         
     </script>

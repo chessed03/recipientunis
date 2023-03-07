@@ -53,9 +53,9 @@ class Site extends Model
 
     }
 
-    public static function getNotices()
+    public static function getNotices( $dateSelected )
     {
-        return Notice::getNotices();
+        return Notice::getNotices( $dateSelected );
     }
 
 }

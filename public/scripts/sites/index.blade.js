@@ -1,25 +1,26 @@
-const cargaAutomatica = ( url_get_data_notices ) => {
+const cargaAutomatica = ( url_get_data_notices, date ) => {
 
     $.ajax({
   
       url      : url_get_data_notices,
       headers  : { 'X-CSRF-TOKEN': $('meta[name="csrf-token_UWl0eGVuTg=="]').attr('content') },
       method   : 'POST',
+      data     : { 'date': date },
       dataType : 'json',
-      success: function(data) {
+      success  : function( item ) {
     
         let $body = $('.tabla_carga_automatica').find('tbody');
   
         $body.empty();
   
-        $.each(data, function(index, data)
+        $.each( item, function(index, item )
             {
                 let $tr = `
                 <tr>
   
-                  <td> ${ data.notice_id } </td>
-                  <td> ${ data.name } </td>
-                  <td> ${ data.start_date } </td>
+                  <td> ${  item.notice_id } </td>
+                  <td> ${  item.name } </td>
+                  <td> ${  item.start_date } </td>
                     
                 </tr>
               `;

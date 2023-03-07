@@ -27,10 +27,10 @@ class SiteController extends Controller
 
     public function getDataNotices( Request $request )
     {
-
+        
         $site    = ___getSite();
 
-        $notices = Site::getNotices();
+        $notices = Site::getNotices( $request->date );
         
         return json_encode($notices);
 
