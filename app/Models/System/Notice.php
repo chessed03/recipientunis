@@ -41,15 +41,16 @@ class Notice extends Model
         $collectionNotices = [];
 
         foreach ( $notices as $not => $notice ) {
-            
-            $data = $notice->noticeable_type::where('id', $notice->noticeable_id)
-                ->first();
-            
+
+            $data = $notice->noticeable_type::findNoticeById( $notice->noticeable_id );
+                        
             if ( $data ) {
 
                 $collectionNotices[$not] = (object)[
                     'notice_id'   => $notice->id,
+                    'type'        => $data->type,    
                     'name'        => $data->name,
+                    'slug'        => $data->slug,
                     'description' => $data->description,
                     'start_date'  => $data->start_date,
                     'finish_date' => $data->finish_date,

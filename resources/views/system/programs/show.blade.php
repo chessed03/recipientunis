@@ -3,7 +3,7 @@
 @section('content')
 
     <!-- breadcrumb-area -->
-    <section class="breadcrumb-area d-flex  p-relative align-items-center" style="background-image:url(img/bg/bdrc-bg.png)">
+    <section class="breadcrumb-area d-flex  p-relative align-items-center" style="background-image:url({{ asset('templates/template-one/img/bg/bdrc-bg.png') }})">
               
         <div class="container">
             <div class="row align-items-center">
@@ -239,7 +239,7 @@
     </section>
     <!--End Project Detail -->
     <!-- brand-area -->
-    <div class="brand-area pt-60 pb-60" style="background-color:#125875">
+    <div class="brand-area pt-60 pb-60" style="background-color: var( --secondary-color )">
         <div class="container">
             <div class="row brand-active">
                 <div class="col-xl-2">

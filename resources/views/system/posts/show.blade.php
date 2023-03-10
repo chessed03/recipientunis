@@ -3,7 +3,7 @@
 @section('content')
 
     <!-- breadcrumb-area -->
-    <section class="breadcrumb-area d-flex  p-relative align-items-center" style="background-image:url({{ $post->image_feature_url }})">
+    <section class="breadcrumb-area d-flex  p-relative align-items-center" style="background-image:url({{ asset('templates/template-one/img/bg/bdrc-bg.png') }})">
               
         <div class="container">
             <div class="row align-items-center">
