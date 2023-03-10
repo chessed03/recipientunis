@@ -42,16 +42,6 @@ use Illuminate\Support\Facades\Route;
 
         });
 
-    # Routes notices
-    Route::controller(ProgramController::class)
-        ->prefix('programs')
-        ->as('program-')
-        ->group(function () {
-
-            Route::any('/{slug}', 'show')->name('show');
-
-        });
-
     # Routes posts
     Route::controller(PostController::class)
         ->prefix('posts')
