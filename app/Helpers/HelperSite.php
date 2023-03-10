@@ -11,6 +11,19 @@ function ___getSite()
 
     $site   = Site::getSite( $server );
 
+    //dd($site->dataSchool->name);
+
     return $site;
 
 }
+
+function ___getCertifications()
+{
+
+    $school_id      = ___getSite()->school_id;
+
+    $certifications = Site::getCertifications( $school_id );
+
+    return $certifications;
+
+} 

@@ -22,10 +22,10 @@ class Site extends Model
 
     const ALIVE      = 1;
 
-    /*public function notice( $modelClass )
+    public function dataSchool()
     {
-        return $this->belongsTo($modelClass);
-    }*/
+        return $this->belongsTo(School::class, 'school_id');
+    }
 
     public static function getSite( $server )
     {
@@ -56,6 +56,20 @@ class Site extends Model
     public static function getNotices( $dateSelected )
     {
         return Notice::getNotices( $dateSelected );
+    }
+
+    public static function getPrograms( $id )
+    {
+
+        return Program::getPrograms( $id );
+
+    }
+
+    public static function getCertifications( $id )
+    {
+
+        return Certification::getCertifications( $id );
+
     }
 
 }

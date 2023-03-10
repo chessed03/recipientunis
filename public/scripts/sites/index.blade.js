@@ -7,28 +7,32 @@ const cargaAutomatica = ( url_get_data_notices, date ) => {
       method   : 'POST',
       data     : { 'date': date },
       dataType : 'json',
-      success  : function( item ) {
+      success  : function( items ) {
     
-        let $body = $('.tabla_carga_automatica').find('tbody');
-  
-        $body.empty();
-  
-        $.each( item, function(index, item )
-            {
-                let $tr = `
-                <tr>
-  
-                  <td> ${  item.notice_id } </td>
-                  <td> ${  item.name } </td>
-                  <td> ${  item.start_date } </td>
-                    
-                </tr>
-              `;
-  
-              $body.append($tr);
-            }
-        )
+        let $body = '';
     
+        $.each( items, function(index, item ){
+                
+          $body += `
+            <div class="col-lg-4 col-md-6  wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
+                <div class="event-item mb-30 hover-zoomin">
+                    <div class="thumb">
+                        <a href="single-event.html"><img src="${ item.image_url }" alt="contact-bg-an-01"></a>
+                    </div>
+                    <div class="event-content">                                    
+                        <div class="date"><strong> ${ moment(item.start_date).format('DD') } </strong> ${ moment(item.start_date).format('MMMM') }, ${ moment(item.start_date).format('YYYY') }</div>
+                        <h3><a href="single-event.html"> ${  item.name } </a></h3>
+                          <p> ${  item.description } </p>
+                        <div class="time">${ moment(item.start_date).format('h:mm a') } - ${ moment(item.finish_date).format('h:mm a') } <i class="fal fa-long-arrow-right"></i> <strong> ${ item.location } </strong></div>
+                    </div>                       
+                </div>
+            </div>
+          `;
+  
+        })
+
+        $('#upcomingEvents').html($body);
+
       }, error : function() {
   
             console.log("existió un problema");

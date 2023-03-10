@@ -33,7 +33,9 @@ class Notice extends Model
         $result  = null;
              
         $notices = self::where('status', self::ALIVE)
-                        ->whereDate('start_date', $dateSelected)
+                        ->whereDate('start_date', '>=', $dateSelected)
+                        ->orderBy('start_date', 'asc')
+                        ->take(6)
                         ->get();
 
         $collectionNotices = [];
@@ -50,7 +52,9 @@ class Notice extends Model
                     'name'        => $data->name,
                     'description' => $data->description,
                     'start_date'  => $data->start_date,
-                    'finish_date' => $data->finish_date
+                    'finish_date' => $data->finish_date,
+                    'location'    => $data->location,
+                    'image_url'   => $data->image_url
                 ];
 
             }

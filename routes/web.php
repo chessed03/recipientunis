@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\System\PostController;
 use App\Http\Controllers\System\SiteController;
+use App\Http\Controllers\System\ProgramController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -36,9 +37,17 @@ use Illuminate\Support\Facades\Route;
         ->as('post-')
         ->group(function () {
 
-
             Route::get('/', 'index')->name('index');
             Route::any('/{slug}', 'show')->name('show');
 
+        });
+
+    # Routes programs
+    Route::controller(ProgramController::class)
+        ->prefix('programs')
+        ->as('program-')
+        ->group(function () {
+
+            Route::any('/{slug}', 'show')->name('show');
 
         });

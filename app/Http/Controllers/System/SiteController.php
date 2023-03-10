@@ -16,11 +16,11 @@ class SiteController extends Controller
 
         $carouselImages = Site::getCarouselImages( $site->id );
 
-        //$notices        = Site::getNotices();
-        
+        $programs       = Site::getPrograms( $site->school_id );
+       
         return view('system.sites.index', [
             'carouselImages' => $carouselImages,
-            //'notices'        => $notices
+            'programs'       => $programs
         ]);
 
     }
