@@ -184,8 +184,8 @@
             
         </div>
     </section>
-   <!-- courses-area -->
-     <!-- steps-area -->
+    <!-- courses-area -->
+    <!-- steps-area -->
     <section class="steps-area p-relative"  style="background-color: var( --secondary-color );">
         <div class="animations-10"><img src="{{ asset('templates/template-one/img/bg/an-img-10.png') }}" alt="an-img-01"></div>
         <div class="container">
@@ -626,7 +626,216 @@
         </div>
     </section>
     <!-- testimonial-area-end -->
-  <!-- search-area -->
+    <!-- search-area -->
+    <section class="search-area pt-120 pb-120 p-relative fix" style="background-image:url({{ asset('templates/template-one/img/bg/search_bg.png') }});  background-position: center center; background-repeat: no-repeat; background-size: cover;">
+        <div class="animations-10"><img src="{{ asset('templates/template-one/img/bg/an-img-04.png') }}" alt="an-img-01"></div>
+        <div class="animations-08"><img src="{{ asset('templates/template-one/img/bg/an-img-05.png') }}" alt="contact-bg-an-01"></div>
+        <div class="container">
+            <div class="row justify-content-center  align-items-center">
+                <div class="col-lg-8">
+                    <div class="contact-bg">
+                    <div class="section-title wow fadeInDown animated" data-animation="fadeInDown" data-delay=".4s">
+                        <h2>
+                        Search For Courses
+                        </h2>
+                        <p>Our community is being called to reimagine the future. As the only university where a renowned design school comes together with premier colleges, we are making learning more relevant and transformational.</p>
+                    </div>
+                        
+                <form action="mail.php" method="post" class="contact-form mt-30 wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
+                    <div class="row">
+                    <div class="col-lg-6">
+                        <div class="contact-field p-relative c-name mb-20">                                    
+                            <input type="text" id="firstn2" name="firstn" placeholder="First Name" required>
+                        </div>                               
+                    </div>
+                    
+                    <div class="col-lg-6">                               
+                        <div class="contact-field p-relative c-subject mb-20">                                   
+                            <input type="text" id="email3" name="email" placeholder="Email" required>
+                        </div>
+                    </div>		
+                    <div class="col-lg-6">                               
+                        <div class="contact-field p-relative c-option mb-20">                                   
+                            <select name="instructor" id="instructor">
+                            <option value="instructore">Instructor</option>
+                            <option value="hot-stone-message">Hot Stone Message</option>
+                            <option value="facil-therophy">Facil & Therophy</option>
+                            </select>
+                        </div>
+                    </div>	
+                        <div class="col-lg-6">
+                            <div class="contact-field p-relative c-option mb-20">                                   
+                                <select name="department" id="department">
+                                <option value="department">Department</option>
+                                <option value="hot-stone-message">Hot Stone Message</option>
+                                <option value="facil-therophy">Facil & Therophy</option>
+                                </select>
+                            </div>
+                        </div>
+                <div class="col-lg-6">                               
+                        <div class="contact-field p-relative c-option mb-20">                                   
+                                <select name="campus" id="campus">
+                                <option value="campus">Campus</option>
+                                <option value="hot-stone-message">Hot Stone Message</option>
+                                <option value="facil-therophy">Facil & Therophy</option>
+                                </select>
+                            </div>
+                    </div>	
+                        <div class="col-lg-6">
+                        <div class="contact-field p-relative c-option mb-20">                                   
+                                <select name="level" id="level">
+                                <option value="level">Level</option>
+                                <option value="hot-stone-message">Hot Stone Message</option>
+                                <option value="facil-therophy">Facil & Therophy</option>
+                                </select>
+                            </div>
+                        </div>
+                    <div class="col-lg-12">
+                        
+                        <div class="slider-btn">                                          
+                                    <button class="btn ss-btn" data-animation="fadeInRight" data-delay=".8s">Search Courses Here  <i class="fal fa-long-arrow-right"></i></button>				
+                                </div>                             
+                    </div>
+                    </div>
+                
+            </form>
+                    
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- search-area-end -->	
+    <!-- admission-area -->
+    <section class="about-area about-p pt-120 pb-120 p-relative fix" style="background-image:url({{ asset('templates/template-one/img/bg/admission_bg.png') }}); background-repeat: no-repeat; background-position: top;">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="s-about-img p-relative  wow fadeInLeft animated" data-animation="fadeInLeft" data-delay=".4s">
+                        <img src="{{ asset('templates/template-one/img/features/about_img.png') }}" alt="img">                              
+                    </div>                          
+                </div>
+                
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="about-content s-about-content pl-15 wow fadeInRight  animated" data-animation="fadeInRight" data-delay=".4s">
+                        <div class="about-title second-title pb-25">  
+                            <h2>Admission & Aid</h2>                                   
+                        </div>
+                        <p class="txt-clr">Our community is being called to reimagine the future. As the only university where a renowned design school comes together with premier colleges, we are making learning more relevant and transformational.</p>
+                        <p class="txt-clr">At Estuidar University, we prepare you to launch your career by pro supportive, creative, and professional environment from which to learn practical skills, build a network of industry contacts.</p>
+                        <div class="slider-btn mt-20">                                          
+                            <a href="about.html" class="btn ss-btn smoth-scroll">Read More <i class="fal fa-long-arrow-right"></i></a>				
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </section>
+    <!-- admission-area-end -->
+    <!-- brand-area -->
+    <div class="brand-area pt-60 pb-60" style="background-color: var( --primary-color )">
+        <div class="container">
+            
+            <div class="row brand-active">
+            
+                @foreach ( $certifications as $cer => $certification )
+
+                    <div class="col-xl-2">
+                        <div class="single-brand">
+                            <img src="{{ $certification->image_url }}" alt="img">
+                        </div>
+                    </div>
+                    
+                @endforeach
+
+            </div>
+
+        </div>
+    </div>
+    <!-- brand-area-end -->        
+    <!-- blog-area -->
+    <section id="blog" class="blog-area p-relative fix pt-120 pb-90" style="background-image:url({{ asset('templates/template-one/img/bg/blog_bg.png') }}); background-repeat: no-repeat; background-position: top;">
+        <div class="container">
+            <div class="row align-items-center"> 
+                <div class="col-lg-12">
+                    <div class="section-title center-align mb-50 text-center wow fadeInDown animated" data-animation="fadeInDown" data-delay=".4s">
+                        <h5><i class="fal fa-graduation-cap"></i> Our Blog</h5>
+                        <h2>
+                        Latest Blog & News
+                        </h2>
+                    
+                    </div>
+                
+                </div>
+            </div>
+            <div class="row">
+
+                @foreach ( $posts as $pot => $post )
+                    
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-post2 hover-zoomin mb-30 wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
+                            <div class="blog-thumb2">
+                                <a href="{{ route('post-show', ['slug' => $post->slug] ) }}"><img src="{{ asset('templates/template-one/img/blog/inner_b1.jpg') }}" alt="img"></a>
+                                <div class="date-home">
+                                    <i class="fal fa-calendar-alt"></i> {{ \Carbon\Carbon::createFromDate($post->created_at)->isoFormat('MMMM Do YYYY') }}
+                                </div>
+                            </div>                    
+                            <div class="blog-content2">    
+                            <div class="b-meta">
+                                    <div class="meta-info">
+                                        <ul>
+                                            <li><i class="fal fa-user"></i> By Admin </li>
+                                            {{--<li><i class="fal fa-comments"></i> 3 Comments</li>--}}
+                                        </ul>
+                                    </div>
+                                </div>
+                                <h4><a href="{{ route('post-show', ['slug' => $post->slug] ) }}">{{ $post->title }}</a></h4> 
+                                <p>{{ $post->subtitle }}</p>
+                                <div class="blog-btn"><a href="{{ route('post-show', ['slug' => $post->slug] ) }}">Leer más <i class="fal fa-long-arrow-right"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+
+                @endforeach
+
+            </div>
+        </div>
+    </section>
+    <!-- blog-area-end -->
+
+    <!-- newslater-area -->
+    <section class="newslater-area pt-60 pb-60" style="background-color: var( --secondary-color )">
+        <div class="container" >
+            <div class="row align-items-center">
+                <div class="col-xl-7 col-lg-7">
+                    <div class="section-title newslater-title">
+                        <div class="icon">
+                            <img src="{{ asset('templates/template-one/img/icon/send-mail.png') }}" alt="img">
+                        </div>
+                        <div class="text">
+                            <h2>Subscribe for Newsletter</h2>
+                            <p>Manage Your Business With Our Software</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-xl-5 col-lg-5">
+                    <form name="ajax-form" id="contact-form4" action="#" method="post" class="contact-form newslater">
+                    <div class="form-group p-relative">
+                        <input class="form-control" id="email2" name="email" type="email" placeholder="Email Address..." value="" required=""> 
+                        <button type="submit" class="btn btn-custom" id="send2">Subscribe Now</button>
+                    </div>
+                    <!-- /Form-email -->	
+                    </form>
+                </div>
+            </div>
+        
+        </div>
+    </section>
+    <!-- newslater-aread-end -->
 
 @endsection
 

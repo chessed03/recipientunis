@@ -72,4 +72,11 @@ class Site extends Model
 
     }
 
+    public static function getPosts( $id )
+    {
+
+        return Post::getPosts( $id );
+
+    }
+
 }

@@ -37,7 +37,6 @@ use Illuminate\Support\Facades\Route;
         ->as('post-')
         ->group(function () {
 
-            Route::get('/', 'index')->name('index');
             Route::any('/{slug}', 'show')->name('show');
 
         });

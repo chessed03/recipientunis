@@ -16,14 +16,3 @@ function ___getSite()
     return $site;
 
 }
-
-function ___getCertifications()
-{
-
-    $school_id      = ___getSite()->school_id;
-
-    $certifications = Site::getCertifications( $school_id );
-
-    return $certifications;
-
-} 

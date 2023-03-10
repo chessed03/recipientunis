@@ -4,6 +4,7 @@ namespace App\Models\System;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Carbon\Carbon;
 
 class Post extends Model
 {
@@ -21,7 +22,7 @@ class Post extends Model
 
     const ALIVE    = 1;
 
-    public static function getPostAliveBySlug( $slug )
+    public static function getPostBySlug( $slug )
     {
         $result = null;
 
@@ -42,7 +43,7 @@ class Post extends Model
         return $result;
     }
 
-    public static function getAlivePostsById( $school_id )
+    public static function getPosts( $school_id )
     {
 
         $result = null;
@@ -53,6 +54,9 @@ class Post extends Model
 
             $query     = self::whereJsonContains('schools', $school_id)
                 ->where('status', self::ALIVE)
+                //->whereDate('created_at', '>=', Carbon::now())
+                ->orderBy('created_at', 'desc')
+                ->take(3)
                 ->get();
 
             if ( $query ) {
