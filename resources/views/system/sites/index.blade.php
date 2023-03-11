@@ -21,7 +21,7 @@
                                 
                                   <div class="slider-btn mt-30">     
                                     <a href="#" class="btn ss-btn mr-15" data-animation="fadeInLeft" data-delay=".4s">Descubre más <i class="fal fa-long-arrow-right"></i></a>
-                                    <a href="contact.html" class="btn ss-btn active" data-animation="fadeInLeft" data-delay=".4s">Contáctanos <i class="fal fa-long-arrow-right"></i></a>
+                                    <a href="#" class="btn ss-btn active" data-animation="fadeInLeft" data-delay=".4s">Contáctanos <i class="fal fa-long-arrow-right"></i></a>
                                 </div>        
                                                       
                             </div>
