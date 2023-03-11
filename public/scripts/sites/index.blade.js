@@ -20,7 +20,7 @@ const onLoadPage = ( url_get_data_notices, date ) => {
                         <a href="${ item.type }/${ item.slug }"><img src="${ item.image_url }" alt="contact-bg-an-01"></a>
                     </div>
                     <div class="event-content">                                    
-                        <div class="date"><strong> ${ moment(item.start_date).format('DD') } </strong> ${ moment(item.start_date).format('MMMM') }, ${ moment(item.start_date).format('YYYY') }</div>
+                        <div class="date"><strong> ${ item.day } </strong> ${ item.month }, ${ item.year }</div>
                         <h3><a href="${ item.type }/${ item.slug }"> ${  item.name } </a></h3>
                           <p> ${ item.description } </p>
                         <div class="time">${ moment(item.start_date).format('h:mm a') } - ${ moment(item.finish_date).format('h:mm a') } <i class="fal fa-long-arrow-right"></i> <strong> ${ item.location } </strong></div>

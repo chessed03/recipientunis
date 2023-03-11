@@ -28,9 +28,9 @@ class Event extends Model
             ->first();
 
         if ( $query ) {
-
+            
             $result = (object)[
-                'type'        => 'events',
+                'type'        => 'eventos',
                 'slug'        => $query->slug,    
                 'name'        => $query->name,
                 'description' => $query->description,
@@ -41,7 +41,7 @@ class Event extends Model
             ];
 
         }
-
+        
         return $result;
 
     }

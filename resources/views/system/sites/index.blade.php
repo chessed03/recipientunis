@@ -703,7 +703,7 @@
                             <div class="blog-thumb2">
                                 <a href="{{ route('post-show', ['slug' => $post->slug] ) }}"><img src="{{ $post->image_feature_url }}" alt="img"></a>
                                 <div class="date-home">
-                                    <i class="fal fa-calendar-alt"></i> {{ \Carbon\Carbon::createFromDate($post->created_at)->isoFormat('MMMM Do YYYY') }}
+                                    <i class="fal fa-calendar-alt"></i> {{ \Carbon\Carbon::createFromDate($post->created_at)->isoFormat('DD') }} de {{ \Carbon\Carbon::createFromDate($post->created_at)->isoFormat('MMMM') }}, {{ \Carbon\Carbon::createFromDate($post->created_at)->isoFormat('YYYY') }}
                                 </div>
                             </div>                    
                             <div class="blog-content2">    

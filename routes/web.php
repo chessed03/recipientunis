@@ -34,7 +34,7 @@ use Illuminate\Support\Facades\Route;
 
     # Routes programs
     Route::controller(ProgramController::class)
-        ->prefix('programs')
+        ->prefix('programas')
         ->as('program-')
         ->group(function () {
 
@@ -52,9 +52,9 @@ use Illuminate\Support\Facades\Route;
 
         });
 
-    # Routes posts
+    # Routes events
     Route::controller(EventController::class)
-        ->prefix('events')
+        ->prefix('eventos')
         ->as('event-')
         ->group(function () {
 

@@ -4,6 +4,7 @@ namespace App\Models\System;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Carbon\Carbon;
 
 class Notice extends Model
 {
@@ -53,6 +54,10 @@ class Notice extends Model
                     'slug'        => $data->slug,
                     'description' => $data->description,
                     'start_date'  => $data->start_date,
+                    'time'        => Carbon::createFromDate($data->start_date)->isoFormat('h:mm a'),
+                    'day'         => Carbon::createFromDate($data->start_date)->isoFormat('DD'),
+                    'month'       => Carbon::createFromDate($data->start_date)->isoFormat('MMMM'),
+                    'year'        => Carbon::createFromDate($data->start_date)->isoFormat('YYYY'),
                     'finish_date' => $data->finish_date,
                     'location'    => $data->location,
                     'image_url'   => $data->image_url
