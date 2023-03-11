@@ -20,8 +20,8 @@
                                 <p data-animation="fadeInUp" data-delay=".6s">{{ $slider->description }}</p>
                                 
                                   <div class="slider-btn mt-30">     
-                                    <a href="about.html" class="btn ss-btn mr-15" data-animation="fadeInLeft" data-delay=".4s">Discover More <i class="fal fa-long-arrow-right"></i></a>
-                                    <a href="contact.html" class="btn ss-btn active" data-animation="fadeInLeft" data-delay=".4s">Contact Us <i class="fal fa-long-arrow-right"></i></a>
+                                    <a href="#" class="btn ss-btn mr-15" data-animation="fadeInLeft" data-delay=".4s">Descubre más <i class="fal fa-long-arrow-right"></i></a>
+                                    <a href="contact.html" class="btn ss-btn active" data-animation="fadeInLeft" data-delay=".4s">Contáctanos <i class="fal fa-long-arrow-right"></i></a>
                                 </div>        
                                                       
                             </div>
@@ -52,9 +52,9 @@
                         <img src="{{ asset('templates/template-one/img/icon/sve-icon4.png') }}" alt="icon01">
                         </div>
                         <div class="text">
-                            <h5><a href="about.html">Education Services</a></h5>
-                            <p>Seamlessly visualize quality ellectual capital without superior collaboration and idea sharing listically</p>
-                            <a href="about.html">Read More <i class="fal fa-long-arrow-right"></i></a>
+                            <h5><a href="#">Servicios Educativos</a></h5>
+                            <p>Visualice sin problemas el capital electual de calidad sin colaboración superior e intercambio de ideas de forma lista.</p>
+                            <a href="#">Leer más <i class="fal fa-long-arrow-right"></i></a>
                         </div>
                      </div>
                         
@@ -68,9 +68,9 @@
                         <img src="{{ asset('templates/template-one/img/icon/sve-icon5.png') }}" alt="icon01">
                         </div>
                         <div class="text">
-                            <h5><a href="about.html">International Hubs</a></h5>
-                            <p>Seamlessly visualize quality ellectual capital without superior collaboration and idea sharing listically</p>
-                            <a href="about.html">Read More <i class="fal fa-long-arrow-right"></i></a>
+                            <h5><a href="#">Centros internacionales</a></h5>
+                            <p>Visualice sin problemas el capital electual de calidad sin colaboración superior e intercambio de ideas de forma lista.</p>
+                            <a href="#">Leer más <i class="fal fa-long-arrow-right"></i></a>
                         </div>
                      </div>
                        
@@ -84,9 +84,9 @@
                         <img src="{{ asset('templates/template-one/img/icon/sve-icon6.png') }}" alt="icon01">
                         </div>
                         <div class="text">
-                            <h5><a href="about.html">Bachelor’s and Master’s</a></h5>
-                            <p>Seamlessly visualize quality ellectual capital without superior collaboration and idea sharing listically</p>
-                            <a href="about.html">Read More <i class="fal fa-long-arrow-right"></i></a>
+                            <h5><a href="#">Licenciatura y Maestría</a></h5>
+                            <p>Visualice sin problemas el capital electual de calidad sin colaboración superior e intercambio de ideas de forma lista.</p>
+                            <a href="#">Leer más <i class="fal fa-long-arrow-right"></i></a>
                         </div>
                      </div>
                         
@@ -108,7 +108,7 @@
                         <img src="{{ asset('templates/template-one/img/features/about_img_02.png') }}" alt="img">   
                        <div class="about-text second-about">
                             <span>25 <sub>+</sub></span> 
-                            <p>Years of Experience</p>
+                            <p>Años de Experiencia</p>
                         </div>
                     </div>
                   
@@ -117,24 +117,24 @@
             <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="about-content s-about-content pl-15 wow fadeInRight  animated" data-animation="fadeInRight" data-delay=".4s">
                         <div class="about-title second-title pb-25">  
-                            <h5><i class="fal fa-graduation-cap"></i> About Our University</h5>
-                            <h2>A Few Words About the University</h2>                                   
+                            <h5><i class="fal fa-graduation-cap"></i> Sobre Nuestra Universidad</h5>
+                            <h2>Algunas palabras sobre la universidad</h2>                                   
                         </div>
-                           <p class="txt-clr">Our community is being called to reimagine the future. As the only university where a renowned design school comes together with premier colleges, we are making learning more relevant and transformational.</p>
-                            <p>We are proud to offer top ranige in employment services such and asser payroll and benefits administrato managemen and asistance with global business range ployment employer  readings from religious texts or literature are also commonly inc compliance.</p>
+                           <p class="txt-clr">Nuestra comunidad está siendo llamada a reimaginar el futuro. Como la única universidad donde una escuela de diseño de renombre se une con universidades de primer nivel, estamos haciendo que el aprendizaje sea más relevante y transformador.</p>
+                            <p>Estamos orgullosos de ofrecer la gama más alta en servicios de empleo, como la gestión administrativa de nóminas y beneficios y la asistencia con el rango de negocios global.</p>
                             <div class="about-content2">
                             <div class="row">
                             <div class="col-md-12">
                              <ul class="green2">                                              
-                                        <li><div class="abcontent"><div class="ano"><span>01</span></div> <div class="text"><h3>Doctoral Degrees</h3> <p>consectetur adipiscing elit sed do eiusmod tem incid idunt.</p></div></div></li>
-                                        <li><div class="abcontent"><div class="ano"><span>02</span></div> <div class="text"><h3>Global Students</h3> <p>consectetur adipiscing elit sed do eiusmod tem incid idunt.</p></div></div></li>
+                                        <li><div class="abcontent"><div class="ano"><span>01</span></div> <div class="text"><h3>Doctorados</h3> <p>el plan de nuestros postgrados, son de alta calidad</p></div></div></li>
+                                        <li><div class="abcontent"><div class="ano"><span>02</span></div> <div class="text"><h3>Estudiantes</h3> <p>el plan de nuestros postgrados, son de alta calidad</p></div></div></li>
                                         
                                    </ul>
                             </div>
                             </div>
                         </div>
                          <div class="slider-btn mt-20">                                          
-                             <a href="about.html" class="btn ss-btn smoth-scroll">Read More <i class="fal fa-long-arrow-right"></i></a>				
+                             <a href="#" class="btn ss-btn smoth-scroll">Leer más <i class="fal fa-long-arrow-right"></i></a>				
                         </div>
                     </div>
                 </div>
@@ -150,9 +150,9 @@
             <div class="row">   
                 <div class="col-lg-12 p-relative">
                    <div class="section-title center-align mb-50 wow fadeInDown animated" data-animation="fadeInDown" data-delay=".4s">
-                         <h5><i class="fal fa-graduation-cap"></i> Our Courses</h5>
+                         <h5><i class="fal fa-graduation-cap"></i> Nuestros cursos</h5>
                         <h2>
-                          Graduate Programs
+                          Programas
                         </h2>                             
                     </div>
                 </div>
@@ -170,7 +170,7 @@
                                 <div class="cat"><i class="fal fa-graduation-cap"></i> {{ $program->area }} </div>
                                 <h3><a href="{{ route('program-show', [ 'slug' => $program->slug ]) }}"> {{ $program->name }} </a></h3>
                                 <p>{{ $program->description }}</p>
-                                <a href="{{ route('program-show', [ 'slug' => $program->slug ]) }}" class="readmore">Read More <i class="fal fa-long-arrow-right"></i></a>
+                                <a href="{{ route('program-show', [ 'slug' => $program->slug ]) }}" class="readmore">Leer más <i class="fal fa-long-arrow-right"></i></a>
                             </div>
                             <div class="icon">
                             <img src="{{ asset('templates/template-one/img/icon/cou-icon.png') }}" alt="img">
@@ -193,8 +193,8 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="section-title mb-35 wow fadeInDown animated" data-animation="fadeInDown" data-delay=".4s">
-                        <h2>Our Best Features</h2>
-                        <p>Special wedding garments are often worn, and the ceremony is sometimes followed by a wedding reception. Music, poetry.</p>
+                        <h2>Marcando la diferencia</h2>
+                        <p>A menudo se nuestros evento, son de gala, con resitales de música y poesía</p>
                     </div>
                     <ul class="pr-20">
                         <li>
@@ -203,8 +203,8 @@
                                     <div class="date-box"><img src="{{ asset('templates/template-one/img/icon/fea-icon01.png') }}" alt="icon"></div>
                                 </div>
                                 <div class="text">
-                                    <h3>Skilled Teachers</h3>
-                                    <p>Special wedding garments are often worn, and the ceremony is sttimes followed by a wedding reception. Music, poetry, prayers, or readings from.</p>
+                                    <h3>Maestros calificados</h3>
+                                    <p>A menudo se nuestros evento, son de gala, con resitales de música y poesía</p>
                                 </div>
                             </div>
                         </li>
@@ -214,8 +214,8 @@
                                      <div class="date-box"><img src="{{ asset('templates/template-one/img/icon/fea-icon02.png') }}" alt="icon"></div>
                                 </div>
                                 <div class="text">
-                                    <h3>Affordable Courses</h3>
-                                    <p>Special wedding garments are often worn, and the ceremony is sttimes followed by a wedding reception. Music, poetry, prayers, or readings from.</p>
+                                    <h3>Cursos asequibles</h3>
+                                    <p>A menudo se nuestros evento, son de gala, con resitales de música y poesía</p>
                                 </div>
                             </div>
                         </li>
@@ -225,8 +225,8 @@
                                    <div class="date-box"><img src="{{ asset('templates/template-one/img/icon/fea-icon03.png') }}" alt="icon"></div>
                                 </div>
                                 <div class="text">
-                                    <h3>Efficient & Flexible</h3>
-                                    <p>Special wedding garments are often worn, and the ceremony is sttimes followed by a wedding reception. Music, poetry, prayers, or readings from.</p>
+                                    <h3>Eficiente y Flexible</h3>
+                                    <p>A menudo se nuestros evento, son de gala, con resitales de música y poesía</p>
                                 </div>
                             </div>
                         </li>
@@ -234,7 +234,7 @@
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="step-img wow fadeInLeft animated" data-animation="fadeInLeft" data-delay=".4s">
-                        <img src="{{ asset('templates/template-one/img/bg/steps-img.png') }}" alt="class image">
+                        <img src="https://icipuebla.com/wp-content/uploads/2022/06/SLIDEPREPA.png" alt="class image">
                     </div>
                    
                 </div>
@@ -256,9 +256,9 @@
             <div class="row">   
                 <div class="col-lg-12 p-relative">
                    <div class="section-title center-align mb-50 text-center wow fadeInDown animated" data-animation="fadeInDown" data-delay=".4s">
-                         <h5><i class="fal fa-graduation-cap"></i> Our Events</h5>
+                         <h5><i class="fal fa-graduation-cap"></i> Nuestros eventos</h5>
                         <h2>
-                          Upcoming Events
+                          Próximos eventos
                         </h2>
                      
                     </div>
@@ -281,14 +281,14 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="section-title cta-title wow fadeInLeft animated" data-animation="fadeInDown animated" data-delay=".2s">
-                        <h2>Scholarship Programs</h2>
-                        <p>At Estuidar University, we prepare you to launch your career by providing a supportive, creative, and professional environment from which to learn practical skills and build a network of industry contacts.</p>
+                        <h2>Programas de Becas</h2>
+                        <p>En la Universidad de Estuidar, lo preparamos para iniciar su carrera al proporcionar un entorno de apoyo, creativo y profesional desde el cual aprender habilidades prácticas y construir una red de contactos en la industria.</p>
                     </div>
                                      
                 </div>
                 <div class="col-lg-4 text-right"> 
                     <div class="cta-btn s-cta-btn wow fadeInRight animated mt-30" data-animation="fadeInDown animated" data-delay=".2s">
-                              <a href="about.html" class="btn ss-btn smoth-scroll">Financial Aid <i class="fal fa-long-arrow-right"></i></a>			
+                              <a href="#" class="btn ss-btn smoth-scroll">Ayuda financiera <i class="fal fa-long-arrow-right"></i></a>			
                         </div>
                 </div>
             
@@ -305,8 +305,8 @@
                
                 <div class="col-lg-7">
                     <div class="section-title wow fadeInLeft animated" data-animation="fadeInDown animated" data-delay=".2s">
-                        <h2>Get every single answer here.</h2>
-                        <p>A business or organization established to provide a particular service, typically one that involves a organizing transactions.</p>
+                        <h2>Obtén todas las respuestas aquí.</h2>
+                        <p>Una empresa u organización establecida para proporcionar un servicio en particular, generalmente uno que implica la organización de transacciones.</p>
                     </div>
                        <div class="faq-wrap mt-30 pr-30 wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
                         <div class="accordion" id="accordionExample">
@@ -315,14 +315,13 @@
                                     <h2 class="mb-0">
                                         <button class="faq-btn" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#collapseThree"  >
-                                           01 Cras turpis felis, elementum sed mi at arcu ?
+                                           01 Que habilidades destacan en tí ?
                                         </button>
                                     </h2>
                                 </div>
                                 <div id="collapseThree" class="collapse show" 
                                     data-bs-parent="#accordionExample">
-                                    <div class="card-body">
-                                        Our community is being called to reimagine the future. As the only university where a renowned design school comes together with premier colleges, we are making learning more relevant and transformational. We are enriched by the wide range.
+                                    <div class="card-body">Nuestra comunidad está siendo llamada a reimaginar el futuro. Como la única universidad donde una escuela de diseño de renombre se une con universidades de primer nivel, estamos haciendo que el aprendizaje sea más relevante y transformador. Estamos enriquecidos por la amplia gama.
                                     </div>
                                 </div>
                             </div>
@@ -331,13 +330,12 @@
                                     <h2 class="mb-0">
                                         <button class="faq-btn collapsed" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#collapseOne"  >
-                                           02 Vestibulum nibh risus, in neque eleifendulputate sem ?
+                                           02 La ingeniería es tu fuerte ?
                                         </button>
                                     </h2>
                                 </div>
                                 <div id="collapseOne" class="collapse" data-bs-parent="#accordionExample">
-                                    <div class="card-body">
-                                        Our community is being called to reimagine the future. As the only university where a renowned design school comes together with premier colleges, we are making learning more relevant and transformational. We are enriched by the wide range.
+                                    <div class="card-body">Nuestra comunidad está siendo llamada a reimaginar el futuro. Como la única universidad donde una escuela de diseño de renombre se une con universidades de primer nivel, estamos haciendo que el aprendizaje sea más relevante y transformador. Estamos enriquecidos por la amplia gama.
                                     </div>
                                 </div>
                             </div>
@@ -346,13 +344,12 @@
                                     <h2 class="mb-0">
                                         <button class="faq-btn collapsed" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#collapseTwo"  >
-                                          03 Donec maximus, sapien id auctor ornare ?
+                                          03 Eres análico de todo lo existente ?
                                         </button>
                                     </h2>
                                 </div>
                                 <div id="collapseTwo" class="collapse" data-bs-parent="#accordionExample">
-                                    <div class="card-body">
-                                      Our community is being called to reimagine the future. As the only university where a renowned design school comes together with premier colleges, we are making learning more relevant and transformational. We are enriched by the wide range.
+                                    <div class="card-body">Nuestra comunidad está siendo llamada a reimaginar el futuro. Como la única universidad donde una escuela de diseño de renombre se une con universidades de primer nivel, estamos haciendo que el aprendizaje sea más relevante y transformador. Estamos enriquecidos por la amplia gama.
                                     </div>
                                 </div>
                             </div>   
@@ -361,13 +358,12 @@
                                     <h2 class="mb-0">
                                         <button class="faq-btn collapsed" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#collapseFour"  >
-                                        04 Vestibulum nibh risus, in neque eleifendulputate sem ?
+                                        04 Pregunta sobre tus skills ?
                                         </button>
                                     </h2>
                                 </div>
                                 <div id="collapseFour" class="collapse" data-bs-parent="#accordionExample">
-                                    <div class="card-body">
-                                        Our community is being called to reimagine the future. As the only university where a renowned design school comes together with premier colleges, we are making learning more relevant and transformational. We are enriched by the wide range.
+                                    <div class="card-body">Nuestra comunidad está siendo llamada a reimaginar el futuro. Como la única universidad donde una escuela de diseño de renombre se une con universidades de primer nivel, estamos haciendo que el aprendizaje sea más relevante y transformador. Estamos enriquecidos por la amplia gama.
                                     </div>
                                 </div>
                             </div>
@@ -376,13 +372,12 @@
                                     <h2 class="mb-0">
                                         <button class="faq-btn collapsed" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#collapseFive"  >
-                                        05 Donec maximus, sapien id auctor ornare ?
+                                        05 Que querias ser cuando niño ?
                                         </button>
                                     </h2>
                                 </div>
                                 <div id="collapseFive" class="collapse" data-bs-parent="#accordionExample">
-                                    <div class="card-body">
-                                        Our community is being called to reimagine the future. As the only university where a renowned design school comes together with premier colleges, we are making learning more relevant and transformational. We are enriched by the wide range.
+                                    <div class="card-body">Nuestra comunidad está siendo llamada a reimaginar el futuro. Como la única universidad donde una escuela de diseño de renombre se une con universidades de primer nivel, estamos haciendo que el aprendizaje sea más relevante y transformador. Estamos enriquecidos por la amplia gama.
                                     </div>
                                 </div>
                             </div>
@@ -393,7 +388,7 @@
                     <div class="contact-bg02">
                     <div class="section-title wow fadeInDown animated" data-animation="fadeInDown" data-delay=".4s">
                         <h2>
-                          Make An Contact
+                          Contactar
                         </h2>
                       
                     </div>
@@ -402,27 +397,27 @@
                     <div class="row">
                     <div class="col-lg-12">
                         <div class="contact-field p-relative c-name mb-20">                                    
-                            <input type="text" id="firstn" name="firstn" placeholder="First Name" required>
+                            <input type="text" id="firstn" name="firstn" placeholder="Nombres" required>
                         </div>                               
                     </div>
                     
                     <div class="col-lg-12">                               
                         <div class="contact-field p-relative c-subject mb-20">                                   
-                            <input type="text" id="email" name="email" placeholder="Email" required>
+                            <input type="text" id="email" name="email" placeholder="Correo" required>
                         </div>
                     </div>		
                     <div class="col-lg-12">                               
                         <div class="contact-field p-relative c-subject mb-20">                                   
-                            <input type="text" id="phone" name="phone" placeholder="Phone No." required>
+                            <input type="text" id="phone" name="phone" placeholder="Telefono" required>
                         </div>
                     </div>	
                   
                     <div class="col-lg-12">
                         <div class="contact-field p-relative c-message mb-30">                                  
-                            <textarea name="message" id="message" cols="30" rows="10" placeholder="Write comments"></textarea>
+                            <textarea name="message" id="message" cols="30" rows="10" placeholder="Comentarios"></textarea>
                         </div>
                         <div class="slider-btn">                                          
-                                    <button class="btn ss-btn" data-animation="fadeInRight" data-delay=".8s"><span>Submit Now</span> <i class="fal fa-long-arrow-right"></i></button>				
+                                    <button class="btn ss-btn" data-animation="fadeInRight" data-delay=".8s"><span>Enviar</span> <i class="fal fa-long-arrow-right"></i></button>				
                                 </div>                             
                     </div>
                     </div>
@@ -441,8 +436,8 @@
             <div class="row justify-content-center  align-items-center">
                 <div class="col-xl-6 col-lg-6 col-md-12">
                     <div class="section-title cta-title video-title wow fadeInLeft animated" data-animation="fadeInDown animated" data-delay=".2s">
-                        <h2> We're <span>Qeducato</span> & We're Diffirent</h2>
-                        <p>Our community is being called to reimagine the future. As the only university where a renowned design school  colleges, </p>	
+                        <h2> Que hace <span>ICI</span> Diferente</h2>
+                        <p>Nuestra comunidad está siendo llamada a reimaginar el futuro. Como la única universidad donde una escuela de diseño de renombre, </p>	
                     </div>
                                      
                 </div>
@@ -451,7 +446,7 @@
                <div class="col-lg-4">
 
                         <div class="s-video-content">
-                            <a href="https://www.youtube.com/watch?v=gyGsPlt06bo" class="popup-video mb-50"><img src="{{ asset('templates/template-one/img/bg/play-button.png') }}" alt="circle_right"></a>
+                            <a href="https://www.youtube.com/watch?v=wfRwYN3BhJ0&list=TLGGyTpTH5ac8HUxMTAzMjAyMw&t=3s" class="popup-video mb-50"><img src="{{ asset('templates/template-one/img/bg/play-button.png') }}" alt="circle_right"></a>
                            
                         </div>
                 </div>
@@ -467,9 +462,9 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title text-center mb-50 wow fadeInDown animated" data-animation="fadeInDown" data-delay=".4s">
-                        <h5><i class="fal fa-graduation-cap"></i> Testimonial</h5>
+                        <h5><i class="fal fa-graduation-cap"></i> Testimonios</h5>
                         <h2>
-                         What Our Clients Says
+                            Lo que dicen nuestros clientes
                         </h2>
                      
                     </div>
@@ -482,7 +477,7 @@
                              <div class="qt-img">
                             <img src="{{ asset('templates/template-one/img/testimonial/qt-icon.png') }}" alt="img">
                             </div>
-                            <p>Curabitur ac tortor ante. Sed quis iaculis risus. Ut ultrices ligula aliquet odio tristique euismod. Donec efficitur dolor in turpis aliquet, at mollis.</p>
+                            <p>Haber estudia en ICI fué mi mejor opción para mis estudios, gracias a su plan me encuentro en un puesto estratégico dentro de la empresa.</p>
                             <div class="testi-author">
                                 <img src="{{ asset('templates/template-one/img/testimonial/testi_avatar.png') }}" alt="img">
                             </div>
@@ -495,7 +490,7 @@
                              <div class="qt-img">
                             <img src="{{ asset('templates/template-one/img/testimonial/qt-icon.png') }}" alt="img">
                             </div>
-                            <p>Curabitur ac tortor ante. Sed quis iaculis risus. Ut ultrices ligula aliquet odio tristique euismod. Donec efficitur dolor in turpis aliquet, at mollis.</p>
+                            <p>Haber estudia en ICI fué mi mejor opción para mis estudios, gracias a su plan me encuentro en un puesto estratégico dentro de la empresa.</p>
                             <div class="testi-author">
                                 <img src="{{ asset('templates/template-one/img/testimonial/testi_avatar_02.png') }}" alt="img">
                             </div>
@@ -508,7 +503,7 @@
                              <div class="qt-img">
                             <img src="{{ asset('templates/template-one/img/testimonial/qt-icon.png') }}" alt="img">
                             </div>
-                            <p>Curabitur ac tortor ante. Sed quis iaculis risus. Ut ultrices ligula aliquet odio tristique euismod. Donec efficitur dolor in turpis aliquet, at mollis.</p>
+                            <p>Haber estudia en ICI fué mi mejor opción para mis estudios, gracias a su plan me encuentro en un puesto estratégico dentro de la empresa.</p>
                             <div class="testi-author">
                                 <img src="{{ asset('templates/template-one/img/testimonial/testi_avatar_03.png') }}" alt="img">
                             </div>
@@ -521,7 +516,7 @@
                              <div class="qt-img">
                             <img src="{{ asset('templates/template-one/img/testimonial/qt-icon.png') }}" alt="img">
                             </div>
-                            <p>Curabitur ac tortor ante. Sed quis iaculis risus. Ut ultrices ligula aliquet odio tristique euismod. Donec efficitur dolor in turpis aliquet, at mollis.</p>
+                            <p>Haber estudia en ICI fué mi mejor opción para mis estudios, gracias a su plan me encuentro en un puesto estratégico dentro de la empresa.</p>
                             <div class="testi-author">
                                 <img src="{{ asset('templates/template-one/img/testimonial/testi_avatar.png') }}" alt="img">
                             </div>
@@ -534,7 +529,7 @@
                              <div class="qt-img">
                             <img src="{{ asset('templates/template-one/img/testimonial/qt-icon.png') }}" alt="img">
                             </div>
-                            <p>Curabitur ac tortor ante. Sed quis iaculis risus. Ut ultrices ligula aliquet odio tristique euismod. Donec efficitur dolor in turpis aliquet, at mollis.</p>
+                            <p>Haber estudia en ICI fué mi mejor opción para mis estudios, gracias a su plan me encuentro en un puesto estratégico dentro de la empresa.</p>
                             <div class="testi-author">
                                 <img src="{{ asset('templates/template-one/img/testimonial/testi_avatar_02.png') }}" alt="img">
                             </div>
@@ -559,39 +554,39 @@
                     <div class="contact-bg">
                     <div class="section-title wow fadeInDown animated" data-animation="fadeInDown" data-delay=".4s">
                         <h2>
-                        Search For Courses
+                            Buscar cursos
                         </h2>
-                        <p>Our community is being called to reimagine the future. As the only university where a renowned design school comes together with premier colleges, we are making learning more relevant and transformational.</p>
+                        <p>Nuestra comunidad está siendo llamada a reimaginar el futuro. Como la única universidad donde una escuela de diseño de renombre se une con universidades de primer nivel, estamos haciendo que el aprendizaje sea más relevante y transformador.</p>
                     </div>
                         
                 <form action="mail.php" method="post" class="contact-form mt-30 wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
                     <div class="row">
                     <div class="col-lg-6">
                         <div class="contact-field p-relative c-name mb-20">                                    
-                            <input type="text" id="firstn2" name="firstn" placeholder="First Name" required>
+                            <input type="text" id="firstn2" name="firstn" placeholder="Nombres" required>
                         </div>                               
                     </div>
                     
                     <div class="col-lg-6">                               
                         <div class="contact-field p-relative c-subject mb-20">                                   
-                            <input type="text" id="email3" name="email" placeholder="Email" required>
+                            <input type="text" id="email3" name="email" placeholder="Correo" required>
                         </div>
                     </div>		
                     <div class="col-lg-6">                               
                         <div class="contact-field p-relative c-option mb-20">                                   
                             <select name="instructor" id="instructor">
                             <option value="instructore">Instructor</option>
-                            <option value="hot-stone-message">Hot Stone Message</option>
-                            <option value="facil-therophy">Facil & Therophy</option>
+                            <option value="hot-stone-message">Mensahje</option>
+                            <option value="facil-therophy">Información</option>
                             </select>
                         </div>
                     </div>	
                         <div class="col-lg-6">
                             <div class="contact-field p-relative c-option mb-20">                                   
                                 <select name="department" id="department">
-                                <option value="department">Department</option>
-                                <option value="hot-stone-message">Hot Stone Message</option>
-                                <option value="facil-therophy">Facil & Therophy</option>
+                                <option value="department">Departmento</option>
+                                <option value="hot-stone-message">Mensahje</option>
+                                <option value="facil-therophy">Información</option>
                                 </select>
                             </div>
                         </div>
@@ -599,24 +594,24 @@
                         <div class="contact-field p-relative c-option mb-20">                                   
                                 <select name="campus" id="campus">
                                 <option value="campus">Campus</option>
-                                <option value="hot-stone-message">Hot Stone Message</option>
-                                <option value="facil-therophy">Facil & Therophy</option>
+                                <option value="hot-stone-message">Mensahje</option>
+                                <option value="facil-therophy">Información</option>
                                 </select>
                             </div>
                     </div>	
                         <div class="col-lg-6">
                         <div class="contact-field p-relative c-option mb-20">                                   
                                 <select name="level" id="level">
-                                <option value="level">Level</option>
-                                <option value="hot-stone-message">Hot Stone Message</option>
-                                <option value="facil-therophy">Facil & Therophy</option>
+                                <option value="level">Nivel</option>
+                                <option value="hot-stone-message">Mensahje</option>
+                                <option value="facil-therophy">Información</option>
                                 </select>
                             </div>
                         </div>
                     <div class="col-lg-12">
                         
                         <div class="slider-btn">                                          
-                                    <button class="btn ss-btn" data-animation="fadeInRight" data-delay=".8s">Search Courses Here  <i class="fal fa-long-arrow-right"></i></button>				
+                                    <button class="btn ss-btn" data-animation="fadeInRight" data-delay=".8s">Buscar cursos <i class="fal fa-long-arrow-right"></i></button>				
                                 </div>                             
                     </div>
                     </div>
@@ -644,12 +639,12 @@
             <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="about-content s-about-content pl-15 wow fadeInRight  animated" data-animation="fadeInRight" data-delay=".4s">
                         <div class="about-title second-title pb-25">  
-                            <h2>Admission & Aid</h2>                                   
+                            <h2>Admisión y ayuda</h2>                                   
                         </div>
-                        <p class="txt-clr">Our community is being called to reimagine the future. As the only university where a renowned design school comes together with premier colleges, we are making learning more relevant and transformational.</p>
-                        <p class="txt-clr">At Estuidar University, we prepare you to launch your career by pro supportive, creative, and professional environment from which to learn practical skills, build a network of industry contacts.</p>
+                        <p class="txt-clr">Nuestra comunidad está siendo llamada a reimaginar el futuro. Como la única universidad donde una escuela de diseño de renombre se une con universidades de primer nivel, estamos haciendo que el aprendizaje sea más relevante y transformador.</p>
+                        <p class="txt-clr">En la Universidad de Estuidar, lo preparamos para iniciar su carrera en un entorno profesional, creativo y de apoyo desde el cual aprender habilidades prácticas y construir una red de contactos en la industria.</p>
                         <div class="slider-btn mt-20">                                          
-                            <a href="about.html" class="btn ss-btn smoth-scroll">Read More <i class="fal fa-long-arrow-right"></i></a>				
+                            <a href="#" class="btn ss-btn smoth-scroll">Leer más <i class="fal fa-long-arrow-right"></i></a>				
                         </div>
                     </div>
                 </div>
@@ -685,9 +680,9 @@
             <div class="row align-items-center"> 
                 <div class="col-lg-12">
                     <div class="section-title center-align mb-50 text-center wow fadeInDown animated" data-animation="fadeInDown" data-delay=".4s">
-                        <h5><i class="fal fa-graduation-cap"></i> Our Blog</h5>
+                        <h5><i class="fal fa-graduation-cap"></i> Nuestro Blog</h5>
                         <h2>
-                        Latest Blog & News
+                            Blog y Noticias más recientes
                         </h2>
                     
                     </div>
@@ -739,8 +734,8 @@
                             <img src="{{ asset('templates/template-one/img/icon/send-mail.png') }}" alt="img">
                         </div>
                         <div class="text">
-                            <h2>Subscribe for Newsletter</h2>
-                            <p>Manage Your Business With Our Software</p>
+                            <h2>Suscribete</h2>
+                            <p>Nuevas noticias cada semana</p>
                         </div>
                         
                     </div>
@@ -748,8 +743,8 @@
                 <div class="col-xl-5 col-lg-5">
                     <form name="ajax-form" id="contact-form4" action="#" method="post" class="contact-form newslater">
                     <div class="form-group p-relative">
-                        <input class="form-control" id="email2" name="email" type="email" placeholder="Email Address..." value="" required=""> 
-                        <button type="submit" class="btn btn-custom" id="send2">Subscribe Now</button>
+                        <input class="form-control" id="email2" name="email" type="email" placeholder="Correo..." value="" required=""> 
+                        <button type="submit" class="btn btn-custom" id="send2">Suscribirme ahora</button>
                     </div>
                     <!-- /Form-email -->	
                     </form>

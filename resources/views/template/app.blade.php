@@ -24,7 +24,7 @@
                         <div class="col-lg-4 col-md-4 d-none d-lg-block ">
                            <div class="header-social">
                                 <span>
-                                    Follow us:-
+                                    <strong>Siguenos:</strong>
                                     <a href="{{ ___getSite()->dataSchool->facebook }}" title="Facebook"><i class="fab fa-facebook-f"></i></a>
                                     <a href="{{ ___getSite()->dataSchool->instagram }}" title="Intagram"><i class="fab fa-instagram"></i></a>               
                                     <a href="{{ ___getSite()->dataSchool->twitter }}" title="Twitter"><i class="fab fa-twitter"></i></a>
@@ -42,7 +42,7 @@
                                             <img src="{{ asset('templates/template-one/img/icon/phone-call.png') }}" alt="img">
                                          </div>
                                          <div class="text">
-                                            <span>Call Now !</span>
+                                            <span>Teléfono</span>
                                             <strong><a href="tel:+917052101786">{{ ___getSite()->dataSchool->phone_main }}</a></strong>                                              
                                          </div>
                                       </div>
@@ -53,7 +53,7 @@
                                             <img src="{{ asset('templates/template-one/img/icon/mailing.png') }}" alt="img">
                                          </div>
                                          <div class="text">
-                                            <span>Email Now</span>
+                                            <span>Correo</span>
                                             <strong><a href="mailto:{{ ___getSite()->dataSchool->email_main }}">{{ ___getSite()->dataSchool->email_main }}</a></strong>                                               
                                          </div>
                                       </div>
@@ -71,7 +71,7 @@
                         <div class="row align-items-center">
                              <div class="col-xl-3 col-lg-3">
                                 <div class="logo">
-                                    <a href="index.html"><img src="{{ ___getSite()->dataSchool->logo_url }}" alt="logo" width="55%"></a>{{--se agrego el porcentaje--}}
+                                    <a href="#"><img src="{{ ___getSite()->dataSchool->logo_url }}" alt="logo" width="55%"></a>{{--se agrego el porcentaje--}}
                                 </div>
                             </div>
                            <div class="col-xl-6 col-lg-6">
@@ -80,46 +80,44 @@
                                     <nav id="mobile-menu">
                                           <ul>
                                             <li class="has-sub">
-                                                <a href="index.html">Home</a>
+                                                <a href="#">Home</a>
                                                 <ul>													
-													<li><a href="index.html">University</a></li>
-													<li><a href="index-2.html">Kindergarten</a></li>													
-													<li><a href="index-3.html">High School</a></li>													
+													<li><a href="#">Universidad</a></li>
+													{{--<li><a href="index-2.html">Kindergarten</a></li>													
+													<li><a href="index-3.html">High School</a></li>--}}
 												</ul>
                                             </li>
-                                            <li><a href="about.html">About Us</a></li>        
+                                            <li><a href="#">Conócenos</a></li>        
                                             
                                               <li class="has-sub">
-                                               <a href="courses.html">Courses</a>
+                                               <a href="#">Cursos</a> {{--tienen la misma ruta--}}
                                                 <ul>													
-													 <li><a href="courses.html">Courses</a></li>
-													<li> <a href="courses-2.html">Courses 02</a></li>
-                                                    <li> <a href="single-courses.html">Course Details</a></li>
-                                                    <li> <a href="single-courses-2.html">Course Details 02</a></li>
+													 <li><a href="#">Cursos</a></li> {{--tienen la misma ruta--}}
+													<li> <a href="#">Curso 02</a></li>
+                                                    {{--<li> <a href="single-courses.html">Course Details</a></li>
+                                                    <li> <a href="single-courses-2.html">Course Details 02</a></li>--}}
 												</ul>
                                             </li>  
-                                              <li class="has-sub"><a href="#">Pages</a>
+                                              <li class="has-sub"><a href="#">Páginas</a>
 												<ul>
-                                                    <li><a href="event.html">Event</a></li>
-                                                    <li><a href="single-event.html">Event Details</a></li>
-                                                    <li><a href="projects.html">Gallery</a></li>
-                                                    <li><a href="pricing.html">Pricing</a></li>
-                                                    <li><a href="faq.html">Faq</a></li>
-                                                    <li><a href="team.html">Teacher</a></li>
-                                                    <li><a href="team-single.html">Teacher Details</a></li>
-                                                    <li><a href="404-error.html">404 Error</a></li>
+                                                    <li><a href="#">Eventos</a></li>
+                                                    <li><a href="#">Detalles de eventos</a></li>
+                                                    <li><a href="#">Galería</a></li>
+                                                    <li><a href="#">Precios</a></li>
+                                                    <li><a href="#">Maestros</a></li>
+                                                    <li><a href="#">Teacher Details</a></li>
                                                   </ul>
 											</li>
                                             <li class="has-sub"> 
-                                                <a href="blog.html">Blog</a>
+                                                <a href="#">Blog</a> {{--tienen la misma ruta--}}
                                                 <ul>
-                                                    <li><a href="blog.html">Blog</a></li>
-                                                    <li><a href="blog-details.html">Blog Details</a></li>
+                                                    <li><a href="#">Blog</a></li> {{--tienen la misma ruta--}}
+                                                    <li><a href="#">Detalles de blog</a></li>
                                                 </ul>
                                             </li>
 
 
-                                            <li><a href="contact.html">Contact</a></li>                                               
+                                            <li><a href="#">Contacto</a></li>                                               
                                         </ul>
                                     </nav>
                                 </div>
@@ -130,7 +128,7 @@
                                         <li><a href="#" class="menu-tigger"><i class="fal fa-search"></i></a></li>
                                         <li>
                                             <div class="second-header-btn">
-                                               <a href="contact.html" class="btn">admission open</a>
+                                               <a href="contact.html" class="btn">admisión abierta</a>
                                             </div>
                                         </li>
                                     </ul>
@@ -155,14 +153,11 @@
              </form>
              <div id="cssmenu3" class="menu-one-page-menu-container">
                 <ul  class="menu">
-                   <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="index.html">Home</a></li>
-                   <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="about.html">About Us</a></li>
-                   <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="courses.html">Courses</a></li>
-                   <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="pricing.html">Pricing </a></li>
-                   <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="team.html">Teacher</a></li>
-                   <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="projects.html">Gallery</a></li>
-                   <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="blog.html">Blog</a></li>
-                   <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="contact.html">Contact</a></li>
+                   <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#">Home</a></li>
+                   <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#">Conócenos</a></li>
+                   <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#">Cursos</a></li>
+                   <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#">Precios</a></li>
+                   <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#">Maestros</a></li>
                 </ul>
              </div>
              <div id="cssmenu2" class="menu-one-page-menu-container">
@@ -190,31 +185,31 @@
                         <div class="col-xl-4 col-lg-4 col-sm-6">
                             <div class="footer-widget mb-30">
                                 <div class="f-widget-title">
-                                    <h2>About Us</h2>
+                                    <h2>Conócenos</h2>
                                 </div>
                                 <div class="f-contact">
-                                     <p>Suspendisse non sem ante. Cras pretium gravida leo a convallis. Nam malesuada interdum metus, sit amet dictum ante congue eu. Maecenas ut maximus enim.</p>
+                                     <p>Somos tu mejor opción, nuestro plan de estudio es único en el país, contacmos con las certificaciones que lo avalan.</p>
                                     
                                     </div>
                                  <div class="footer-social mt-10">                                    
                                     <a href="{{ ___getSite()->dataSchool->facebook }}"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="{{ ___getSite()->dataSchool->instagram }}"><i class="fab fa-instagram"></i></a>
+                                    <a href="{{ ___getSite()->dataSchool->twitter }}"><i class="fab fa-twitter"></i></a>
                                 </div>    
                             </div>
                         </div>
 						<div class="col-xl-2 col-lg-2 col-sm-6">
                             <div class="footer-widget mb-30">
                                 <div class="f-widget-title">
-                                    <h2>Our Links</h2>
+                                    <h2>Nuestros enlaces</h2>
                                 </div>
                                 <div class="footer-link">
                                     <ul>                                        
-                                        <li><a href="index.html">Home</a></li>
-                                        <li><a href="about.html"> About</a></li>
-                                        <li><a href="courses.html">Courses</a></li>
-                                        <li><a href="contact.html"> Contact Us</a></li>
-                                        <li><a href="blog.html">Blog </a></li>
+                                        <li><a href="#">Home</a></li>
+                                        <li><a href="#"> Conócenos</a></li>
+                                        <li><a href="#">Cursos</a></li>
+                                        <li><a href="#"> Contactanos</a></li>
+                                        <li><a href="#">Blog </a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -222,20 +217,20 @@
                         <div class="col-xl-3 col-lg-3 col-sm-6">
                             <div class="footer-widget mb-30">
                                 <div class="f-widget-title">
-                                    <h2>Latest Post</h2>
+                                    <h2>Últimas publicaciones</h2>
                                 </div>
                                 <div class="recent-blog-footer">
                                     <ul>
                                         <li>
                                             <div class="thum"> <img src="{{ asset('templates/template-one/img/blog/s-blogimg-01.png') }}" alt="img"></div>
-                                            <div class="text"> <a href="blog-details.html">Nothing impossble to need hard work</a>
-                                            <span>7 March, 2020</span></div>
+                                            <div class="text"> <a href="blog-details.html">Nada es imposible, cuando la constancia y la perseverancia actúan en ti.</a>
+                                            <span>13 Marzo, 2023</span></div>
                                         </li>
                                         
                                         <li>
                                             <div class="thum"> <img src="{{ asset('templates/template-one/img/blog/s-blogimg-02.png') }}" alt="img"></div>
-                                            <div class="text"> <a href="blog-details.html">Nothing impossble to need hard work</a>
-                                            <span>7 March, 2020</span></div>
+                                            <div class="text"> <a href="blog-details.html">Nada es imposible, cuando la constancia y la perseverancia actúan en ti.</a>
+                                            <span>13 Marzo, 2023</span></div>
                                         </li>
                                     
                                     </ul>
@@ -247,7 +242,7 @@
                         <div class="col-xl-3 col-lg-3 col-sm-6">
                             <div class="footer-widget mb-30">
                                 <div class="f-widget-title">
-                                  <h2>Contact Us</h2>
+                                  <h2>Contactanos</h2>
                                 </div>
                                 <div class="f-contact">
                                     <ul>
@@ -284,14 +279,14 @@
                     <div class="row align-items-center">
                         <div class="col-lg-4">
                           <div class="copy-text">
-                                <a href="index.html"><img src="{{ ___getSite()->dataSchool->logo_url }}" alt="img"></a>   
+                                <a href="#"><img src="{{ ___getSite()->dataSchool->logo_url }}" alt="img"></a>   
                             </div>
                         </div>
                         <div class="col-lg-4 text-center">          
                             
                         </div>
                        <div class="col-lg-4 text-right text-xl-right">
-                           Copyright &copy; {{ ___getSite()->dataSchool->name }} 2023 . All rights reserved.     
+                           Copyright &copy; {{ ___getSite()->dataSchool->name }} 2023 . Todos los derechos reservados.     
                         </div>
                     </div>
                 </div>

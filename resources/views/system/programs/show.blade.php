@@ -10,7 +10,7 @@
                 <div class="col-xl-12 col-lg-12">
                     <div class="breadcrumb-wrap text-left">
                         <div class="breadcrumb-title">
-                            <h2>Course Details</h2>  
+                            <h2>Detalles del Curso</h2>  
                         </div>
                     </div>
                 </div>
@@ -18,8 +18,8 @@
                       
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Course Details</li>
+                                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Detalles del Curso</li>
                             </ol>
                         </nav>
                     </div>
@@ -35,7 +35,7 @@
             <div class="lower-content">
                 <div class="row">
                     <div class="text-column col-lg-9 col-md-9 col-sm-12">
-                        <h2>The business Intelligence analyst Course</h2>
+                        <h2>El curso de analista de inteligencia de negocios</h2>
                         
                         <div class="upper-box">
                             <div class="single-item-carousel owl-carousel owl-theme">
@@ -52,8 +52,8 @@
                                         </div>
 
                                         <div class="text">
-                                            <a href="single-courses-2.html">Robto Jone</a>
-                                            <p>Teacher</p>
+                                            <a href="#">Robto Jone</a>
+                                            <p>Profesor</p>
                                         </div>
                                     </div>                                    
                                 </li>
@@ -61,7 +61,7 @@
                                     <div class="author">
                                     <div class="text">
                                         <a href="#" class="course-name">Photoshop</a>
-                                        <p>Categories</p>
+                                        <p>Categoría</p>
                                     </div>
                                     </div>
                                 
@@ -75,64 +75,64 @@
                         
                             </ul>
                             </div>
-                            <h3>Course Overview</h3>
-                            <p>Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply dummy text of the printing.</p>
+                            <h3>Resumen del curso</h3>
+                            <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>
                         
-                            <p>The world of search engine optimization is complex and ever-changing, but you can easily understand the basics, and even a small amount of SEO knowledge can make a big difference. Free SEO education is also widely available on the web, including in guides like this! (Woohoo!) This guide is designed to describe all major aspects of SEO, from finding the terms and phrases (keywords) that can generate qualified traffic to your website, to making your site friendly to search engines, to building links and marketing the unique value of your site.Etiam pharetra erat sed fermentum feugiat velit mauris egestas quam ut erat justo.</p>
-                            <h4>What You Will Learn</h4>
-                            <p>Fusce eleifend donec sapien sed phase lusa pellentesque lacus.Vivamus lorem arcu semper duiac. Cras ornare arcu avamus nda leo Etiam ind arcu. Morbi justo mauris tempus pharetra interdum at congue semper purus. Lorem ipsum dolor sit.The world of search engine optimization is complex and ever-changing, but you can easily understand the basics.</p>
-                            <p>Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply dummy text of the printing.</p>
+                            <p>Al contrario del pensamiento popular, el texto de Lorem Ipsum no es simplemente texto aleatorio. Tiene sus raices en una pieza cl´sica de la literatura del Latin, que data del año 45 antes de Cristo, haciendo que este adquiera mas de 2000 años de antiguedad. Richard McClintock, un profesor de Latin de la Universidad de Hampden-Sydney en Virginia, encontró una de las palabras más oscuras de la lengua del latín, "consecteur", en un pasaje de Lorem Ipsum, y al seguir leyendo distintos textos del latín, descubrió la fuente indudable. Lorem Ipsum viene de las secciones 1.10.32 y 1.10.33 de "de Finnibus Bonorum et Malorum" (Los Extremos del Bien y El Mal) por Cicero, escrito en el año 45 antes de Cristo. Este libro es un tratado de teoría de éticas, muy popular durante el Renacimiento. La primera linea del Lorem Ipsum, "Lorem ipsum dolor sit amet..", viene de una linea en la sección 1.10.32</p>
+                            <h4>Lo que vas a aprender</h4>
+                            <p>Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. El punto de usar Lorem Ipsum es que tiene una distribución más o menos normal de las letras, al contrario de usar textos como por ejemplo "Contenido aquí, contenido aquí". Estos textos hacen parecerlo un español que se puede leer. Muchos paquetes de autoedición y editores de páginas web usan el Lorem Ipsum como su texto por defecto, y al hacer una búsqueda de "Lorem Ipsum" va a dar por resultado muchos sitios web que usan este texto si se encuentran en estado de desarrollo. Muchas versiones han evolucionado a través de los años, algunas veces por accidente, otras veces a propósito (por ejemplo insertándole humor y cosas por el estilo).</p>
+                            <p>Hay muchas variaciones de los pasajes de Lorem Ipsum disponibles, pero la mayoría sufrió alteraciones en alguna manera, ya sea porque se le agregó humor, o palabras aleatorias que no parecen ni un poco creíbles. Si vas a utilizar un pasaje de Lorem Ipsum, necesitás estar seguro de que no hay nada avergonzante escondido en el medio del texto. Todos los generadores de Lorem Ipsum que se encuentran en Internet tienden a repetir trozos predefinidos cuando sea necesario, haciendo a este el único generador verdadero (válido) en la Internet. Usa un diccionario de mas de 200 palabras provenientes del latín, combinadas con estructuras muy útiles de sentencias, para generar texto de Lorem Ipsum que parezca razonable. Este Lorem Ipsum generado siempre estará libre de repeticiones, humor agregado o palabras no características del lenguaje, etc.</p>
                             <ul class="pr-ul">
                                 <li>
                                     <div class="icon"><i class="fal fa-check"></i></div>
                                     <div class="text">
-                                    Crawl accessibility so engines can read your website
+                                        Accesibilidad de rastreo para que los motores puedan leer su sitio web
                                     </div>
                                 </li>
                                 <li>
                                     <div class="icon"><i class="fal fa-check"></i></div>
                                     <div class="text">
-                                        Share-worthy content that earns links, citations
+                                        Contenido digno de compartir que gana enlaces, citas
                                     </div>
                                 </li>
                                 <li>
                                     <div class="icon"><i class="fal fa-check"></i></div>
                                     <div class="text">
-                                    Keyword optimized to attract searchers & engines
+                                        Palabra clave optimizada para atraer buscadores y motores
                                     </div>
                                 </li>
                                 <li>
                                     <div class="icon"><i class="fal fa-check"></i></div>
                                     <div class="text">
-                                    Title, URL, & description to draw high CTR 
+                                        Título, URL y descripción para obtener un alto CTR
                                     </div>
                                 </li>
                             
                             </ul>
-                            <h4>Study Options:</h4>
+                            <h4>Opciones de estudio:</h4>
                             <table class="table table-bordered mb-40">
                                 <thead>
                                     <tr>
-                                        <th>Qualification</th>
-                                        <th>Length</th>
-                                        <th>Code</th>
+                                        <th>Cualificación</th>
+                                        <th>Longitud</th>
+                                        <th>Código</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>Bsc (Hons)</td>
-                                        <td>3 years full time</td>
+                                        <td>Licenciatura (Hons)</td>
+                                        <td>3 años tiempo completo</td>
                                         <td>CDX3</td>
                                     </tr>
                                     <tr>
                                         <td>Bsc </td>
-                                        <td>4 years full time</td>
+                                        <td>4 años tiempo completo</td>
                                         <td>CDX4</td>
                                     </tr>
                                 </tbody>
                             </table>
-                            <h3>Frequently Asked Question</h3>
-                            <p>A business or organization established to provide a particular service, typically one that involves a organizing transactions.Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem enim var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply dummy text of the printing..</p>
+                            <h3>Preguntas frecuentes</h3>
+                            <p>Una empresa u organización establecida para brindar un servicio en particular, generalmente uno que involucra transacciones de organización. Lorem ipsum es simplemente texto libre que se usa para copiar y actualizar. Neque porro est qui dolorem enim var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum es simplemente un texto ficticio de la imprenta..</p>
                         <div class="faq-wrap pt-30 wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
                                 <div class="accordion" id="accordionExample">
                                     <div class="card">
@@ -140,14 +140,14 @@
                                             <h2 class="mb-0">
                                                 <button class="faq-btn" type="button" data-bs-toggle="collapse"
                                                     data-bs-target="#collapseThree"  >
-                                                01 Cras turpis felis, elementum sed mi at arcu ?
+                                                01 Primera pregunta, primera ?
                                                 </button>
                                             </h2>
                                         </div>
                                         <div id="collapseThree" class="collapse show"
                                             data-bs-parent="#accordionExample">
                                             <div class="card-body">
-                                                Our community is being called to reimagine the future. As the only university where a renowned design school comes together with premier colleges, we are making learning more relevant and transformational. We are enriched by the wide range.
+                                                Nuestra comunidad está siendo llamada a reimaginar el futuro. Como la única universidad donde una escuela de diseño de renombre se une con universidades de primer nivel, estamos haciendo que el aprendizaje sea más relevante y transformador. Estamos enriquecidos por la amplia gama.
                                             </div>
                                         </div>
                                     </div>
@@ -156,13 +156,13 @@
                                             <h2 class="mb-0">
                                                 <button class="faq-btn collapsed" type="button" data-bs-toggle="collapse"
                                                     data-bs-target="#collapseOne"  >
-                                                02 Vestibulum nibh risus, in neque eleifendulputate sem ?
+                                                02 Segunda pregunta, segunda ?
                                                 </button>
                                             </h2>
                                         </div>
                                         <div id="collapseOne" class="collapse" data-bs-parent="#accordionExample">
                                             <div class="card-body">
-                                                Our community is being called to reimagine the future. As the only university where a renowned design school comes together with premier colleges, we are making learning more relevant and transformational. We are enriched by the wide range.
+                                                Nuestra comunidad está siendo llamada a reimaginar el futuro. Como la única universidad donde una escuela de diseño de renombre se une con universidades de primer nivel, estamos haciendo que el aprendizaje sea más relevante y transformador. Estamos enriquecidos por la amplia gama.
                                             </div>
                                         </div>
                                     </div>
@@ -171,13 +171,13 @@
                                             <h2 class="mb-0">
                                                 <button class="faq-btn collapsed" type="button" data-bs-toggle="collapse"
                                                     data-bs-target="#collapseTwo"  >
-                                                03 Donec maximus, sapien id auctor ornare ?
+                                                03 Tercera pregunta, tercera ?
                                                 </button>
                                             </h2>
                                         </div>
                                         <div id="collapseTwo" class="collapse" data-bs-parent="#accordionExample">
                                             <div class="card-body">
-                                            Our community is being called to reimagine the future. As the only university where a renowned design school comes together with premier colleges, we are making learning more relevant and transformational. We are enriched by the wide range.
+                                            Nuestra comunidad está siendo llamada a reimaginar el futuro. Como la única universidad donde una escuela de diseño de renombre se une con universidades de primer nivel, estamos haciendo que el aprendizaje sea más relevante y transformador. Estamos enriquecidos por la amplia gama.
                                             </div>
                                         </div>
                                     </div>   
@@ -189,12 +189,12 @@
                     <div class="col-lg-3">
                         <aside class="sidebar-widget info-column">
                             <div class="inner-column3">
-                                    <h3>Course Features</h3>
+                                    <h3>Características del curso</h3>
                                     <ul class="project-info clearfix">
                                         <li>
                                             <div class="priceing">                                    
                                             <strong>$59.00</strong> <sub>$139.00</sub>
-                                            <span class="discont">68% OFF</span>
+                                            <span class="discont">68% Dscto.</span>
                                             </div>
                                         </li>
                                         <li>
@@ -202,21 +202,21 @@
                                         </li>
 
                                         <li>
-                                        <span class="icon fal fa-book"></span> <strong>Lectures:</strong> <span>14</span>
+                                        <span class="icon fal fa-book"></span> <strong>Lecturas:</strong> <span>14</span>
                                         </li>
 
                                         <li>
-                                            <span class="icon fal fa-clock"></span> <strong>Duration: </strong> <span>6 weeks</span>
+                                            <span class="icon fal fa-clock"></span> <strong>Duración: </strong> <span>6 semanas</span>
                                         </li>
                                         <li>
-                                            <span class="icon fal fa-user"></span> <strong>Enrolled: </strong> <span>20 students</span>
+                                            <span class="icon fal fa-user"></span> <strong>Inscritos: </strong> <span>20 estudiantes</span>
                                         </li>
                                         <li>
-                                            <span class="icon fal fa-globe"></span> <strong>Language: </strong> <span>English</span>
+                                            <span class="icon fal fa-globe"></span> <strong>Lenguaje </strong> <span>Inglés</span>
                                         </li>
                                         <li>
                                             <div class="slider-btn">                                          
-                                                <a href="contact.html" class="btn ss-btn smoth-scroll">Enroll <i class="fal fa-long-arrow-right"></i></a>				
+                                                <a href="#" class="btn ss-btn smoth-scroll">Inscribirse <i class="fal fa-long-arrow-right"></i></a>				
                                             </div>
                                         </li>
                                     
