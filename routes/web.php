@@ -27,7 +27,9 @@ use Illuminate\Support\Facades\Route;
         ->as('site-')
         ->group(function () {
 
-            Route::get('/', 'index')->name('index');
+            Route::get('/', 'maintenance')->name('maintenance'); #ruta temporal vista sitio en mantenimiento
+            Route::post('create-surface', 'createSurface')->name('create-surface'); #ruta temporal vista sitio en mantenimiento
+            Route::get('index', 'index')->name('index'); #ruta real del sitio
             Route::post('getDataNotices', 'getDataNotices')->name('getDataNotices');
 
         });

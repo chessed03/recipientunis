@@ -79,4 +79,12 @@ class Site extends Model
 
     }
 
+    public static function createSurface( $data )
+    {
+        
+        return Surface::createItem( $data );
+
+    }
+
+
 }

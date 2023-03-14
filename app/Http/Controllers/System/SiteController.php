@@ -42,5 +42,22 @@ class SiteController extends Controller
 
     }
 
+    public function maintenance( Request $request )
+    {
+
+        
+        return view('system.sites.maintenance');
+
+    }
+
+    public function createSurface( Request $request )
+    {
+        
+        $result = Site::createSurface( $request );
+
+        return json_encode($result);
+
+    }
+
 
 }
