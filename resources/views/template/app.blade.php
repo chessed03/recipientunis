@@ -5,7 +5,8 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="csrf-token_UWl0eGVuTg==" content="{{ csrf_token() }}" />
         <title>{{ ___getSite()->dataSchool->name }}</title>
-        <meta name="description" content="">
+        <meta name="description" content="{{ ___getSite()->dataSchool->meta_description }}">
+        <meta name="keywords" content="{{ ___getSite()->dataSchool->meta_keywords }}">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="shortcut icon" type="image/x-icon" href="{{ ___getSite()->favicon_url }}">
         <!-- Place favicon.ico in the root directory -->

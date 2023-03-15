@@ -105,7 +105,7 @@
             <div class="row justify-content-center align-items-center">
                  <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="s-about-img p-relative  wow fadeInLeft animated" data-animation="fadeInLeft" data-delay=".4s">
-                        <img src="{{ asset('templates/template-one/img/features/about_img_02.png') }}" alt="img">   
+                        <img src="{{ ___getSite()->dataSchool->image_about_us_url ?? asset('templates/template-one/img/features/about_img_02.png') }}" alt="img">   
                        <div class="about-text second-about">
                             <span>25 <sub>+</sub></span> 
                             <p>Años de Experiencia</p>
@@ -118,24 +118,23 @@
                     <div class="about-content s-about-content pl-15 wow fadeInRight  animated" data-animation="fadeInRight" data-delay=".4s">
                         <div class="about-title second-title pb-25">  
                             <h5><i class="fal fa-graduation-cap"></i> Sobre Nuestra Universidad</h5>
-                            <h2>Algunas palabras sobre la universidad</h2>                                   
+                            <h2>{{ ___getSite()->dataSchool->title_about_us }}</h2>                                   
                         </div>
-                           <p class="txt-clr">Nuestra comunidad está siendo llamada a reimaginar el futuro. Como la única universidad donde una escuela de diseño de renombre se une con universidades de primer nivel, estamos haciendo que el aprendizaje sea más relevante y transformador.</p>
-                            <p>Estamos orgullosos de ofrecer la gama más alta en servicios de empleo, como la gestión administrativa de nóminas y beneficios y la asistencia con el rango de negocios global.</p>
-                            <div class="about-content2">
+                        <p class="txt-clr">{{ ___getSite()->dataSchool->description_about_us }}</p>
+                        {{--<div class="about-content2">
                             <div class="row">
-                            <div class="col-md-12">
-                             <ul class="green2">                                              
-                                        <li><div class="abcontent"><div class="ano"><span>01</span></div> <div class="text"><h3>Doctorados</h3> <p>el plan de nuestros postgrados, son de alta calidad</p></div></div></li>
-                                        <li><div class="abcontent"><div class="ano"><span>02</span></div> <div class="text"><h3>Estudiantes</h3> <p>el plan de nuestros postgrados, son de alta calidad</p></div></div></li>
-                                        
-                                   </ul>
+                                <div class="col-md-12">
+                                    <ul class="green2">                                              
+                                            <li><div class="abcontent"><div class="ano"><span>01</span></div> <div class="text"><h3>Doctorados</h3> <p>el plan de nuestros postgrados, son de alta calidad</p></div></div></li>
+                                            <li><div class="abcontent"><div class="ano"><span>02</span></div> <div class="text"><h3>Estudiantes</h3> <p>el plan de nuestros postgrados, son de alta calidad</p></div></div></li>
+                                            
+                                    </ul>
+                                </div>
                             </div>
-                            </div>
-                        </div>
-                         <div class="slider-btn mt-20">                                          
+                        </div>--}}
+                         {{--<div class="slider-btn mt-20">                                          
                              <a href="#" class="btn ss-btn smoth-scroll">Leer más <i class="fal fa-long-arrow-right"></i></a>				
-                        </div>
+                        </div>--}}
                     </div>
                 </div>
              
