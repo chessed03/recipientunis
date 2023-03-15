@@ -40,7 +40,7 @@
     </section>
     <!-- slider-area-end -->
      <!-- service-area -->
-    <section class="service-details-two p-relative">
+    {{--<section class="service-details-two p-relative">
         <div class="container">
             <div class="row">
               
@@ -95,11 +95,11 @@
              
             </div>
         </div>
-    </section>
+    </section>--}}
     <!-- service-details2-area-end -->
     
      <!-- about-area -->
-    <section class="about-area about-p pt-120 pb-120 p-relative fix" style="background: #eff7ff;">
+    <section class="about-area about-p pt-120 pb-120 p-relative fix" style="background: #eff7ff;" id="knowUs">
         <div class="animations-02"><img src="{{ asset('templates/template-one/img/bg/an-img-02.png') }}" alt="contact-bg-an-01"></div>
         <div class="container">
             <div class="row justify-content-center align-items-center">
@@ -144,7 +144,7 @@
     </section>
     <!-- about-area-end -->
      <!-- courses-area -->
-    <section class="courses pt-120 pb-120 p-relative fix">
+    <section class="courses pt-120 pb-120 p-relative fix" id="programs">
          <div class="animations-01"><img src="{{ asset('templates/template-one/img/bg/an-img-03.png') }}" alt="an-img-01"></div>
         <div class="container">
             <div class="row">   
@@ -247,7 +247,7 @@
     </section>
     <!-- steps-area-end -->
      <!-- event-area -->
-    <section class="event pt-120 pb-90 p-relative fix">
+    <section class="event pt-120 pb-90 p-relative fix" id="events">
          <div class="animations-06"><img src="{{ asset('templates/template-one/img/bg/an-img-06.png') }}" alt="an-img-01"></div>
         <div class="animations-07"><img src="{{ asset('templates/template-one/img/bg/an-img-07.png') }}" alt="contact-bg-an-01"></div>
         <div class="animations-08"><img src="{{ asset('templates/template-one/img/bg/an-img-08.png') }}" alt="contact-bg-an-01"></div>
@@ -297,7 +297,7 @@
     </section>
     <!-- cta-area-end -->	
     <!-- frequently-area -->
-    <section class="faq-area pt-120 pb-120 p-relative fix">
+    <section class="faq-area pt-120 pb-120 p-relative fix" id="contact">
         <div class="animations-10"><img src="{{ asset('templates/template-one/img/bg/an-img-04.png') }}" alt="an-img-01"></div>
         <div class="animations-08"><img src="{{ asset('templates/template-one/img/bg/an-img-05.png') }}" alt="contact-bg-an-01"></div>
         <div class="container">
@@ -675,14 +675,14 @@
     </div>
     <!-- brand-area-end -->        
     <!-- blog-area -->
-    <section id="blog" class="blog-area p-relative fix pt-120 pb-90" style="background-image:url({{ asset('templates/template-one/img/bg/blog_bg.png') }}); background-repeat: no-repeat; background-position: top;">
+    <section {{--id="blog"--}} class="blog-area p-relative fix pt-120 pb-90" style="background-image:url({{ asset('templates/template-one/img/bg/blog_bg.png') }}); background-repeat: no-repeat; background-position: top;" id="posts">
         <div class="container">
             <div class="row align-items-center"> 
                 <div class="col-lg-12">
                     <div class="section-title center-align mb-50 text-center wow fadeInDown animated" data-animation="fadeInDown" data-delay=".4s">
-                        <h5><i class="fal fa-graduation-cap"></i> Nuestro Blog</h5>
+                        <h5><i class="fal fa-graduation-cap"></i> Nuestro Posts</h5>
                         <h2>
-                            Blog y Noticias más recientes
+                            Posts y Noticias más recientes
                         </h2>
                     
                     </div>

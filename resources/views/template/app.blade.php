@@ -79,45 +79,54 @@
                                 <div class="main-menu text-right text-xl-right">
                                     <nav id="mobile-menu">
                                           <ul>
+                                            
                                             <li class="has-sub">
                                                 <a href="#">Home</a>
-                                                <ul>													
+                                                {{--<ul>													
 													<li><a href="#">Universidad</a></li>
-													{{--<li><a href="index-2.html">Kindergarten</a></li>													
-													<li><a href="index-3.html">High School</a></li>--}}
-												</ul>
+													<li><a href="index-2.html">Kindergarten</a></li>													
+													<li><a href="index-3.html">High School</a></li>
+												</ul>--}}
                                             </li>
-                                            <li><a href="#">Conócenos</a></li>        
+
+                                            <li class="has-sub">
+                                                <a href="#knowUs">Conócenos</a>
+                                            </li>        
                                             
-                                              <li class="has-sub">
-                                               <a href="#">Cursos</a> {{--tienen la misma ruta--}}
-                                                <ul>													
-													 <li><a href="#">Cursos</a></li> {{--tienen la misma ruta--}}
+                                            <li class="has-sub">
+                                               <a href="#programs">Programas</a> {{--tienen la misma ruta--}}
+                                                {{--<ul>													
+													 <li><a href="#">Cursos</a></li> --tienen la misma ruta--
 													<li> <a href="#">Curso 02</a></li>
-                                                    {{--<li> <a href="single-courses.html">Course Details</a></li>
-                                                    <li> <a href="single-courses-2.html">Course Details 02</a></li>--}}
-												</ul>
-                                            </li>  
-                                              <li class="has-sub"><a href="#">Páginas</a>
-												<ul>
+                                                    <li> <a href="single-courses.html">Course Details</a></li>
+                                                    <li> <a href="single-courses-2.html">Course Details 02</a></li>
+												</ul>--}}
+                                            </li>
+
+                                            <li class="has-sub">
+                                                <a href="#events">Eventos</a>
+												{{--<ul>
                                                     <li><a href="#">Eventos</a></li>
                                                     <li><a href="#">Detalles de eventos</a></li>
                                                     <li><a href="#">Galería</a></li>
                                                     <li><a href="#">Precios</a></li>
                                                     <li><a href="#">Maestros</a></li>
                                                     <li><a href="#">Teacher Details</a></li>
-                                                  </ul>
+                                                </ul>--}}
 											</li>
+
                                             <li class="has-sub"> 
-                                                <a href="#">Blog</a> {{--tienen la misma ruta--}}
-                                                <ul>
-                                                    <li><a href="#">Blog</a></li> {{--tienen la misma ruta--}}
+                                                <a href="#posts">Posts</a> {{--tienen la misma ruta--}}
+                                                {{--<ul>
+                                                    <li><a href="#">Blog</a></li> --tienen la misma ruta-
                                                     <li><a href="#">Detalles de blog</a></li>
-                                                </ul>
+                                                </ul>--}}
                                             </li>
 
+                                            <li class="has-sub">
+                                                <a href="#contact">Contacto</a>
+                                            </li>                                               
 
-                                            <li><a href="#">Contacto</a></li>                                               
                                         </ul>
                                     </nav>
                                 </div>
@@ -125,10 +134,10 @@
                              <div class="col-xl-3 col-lg-3 text-right d-none d-lg-block text-right text-xl-right">
                                  <div class="login">
                                     <ul>
-                                        <li><a href="#" class="menu-tigger"><i class="fal fa-search"></i></a></li>
+                                        {{--<li><a href="#" class="menu-tigger"><i class="fal fa-search"></i></a></li>--}}
                                         <li>
                                             <div class="second-header-btn">
-                                               <a href="contact.html" class="btn">admisión abierta</a>
+                                               <a href="#" class="btn">admisión abierta</a>
                                             </div>
                                         </li>
                                     </ul>
@@ -145,7 +154,7 @@
         </header>
         <!-- header-end -->
         <!-- offcanvas-area -->
-          <div class="offcanvas-menu">
+          {{--<div class="offcanvas-menu">
              <span class="menu-close"><i class="fas fa-times"></i></span>
              <form role="search" method="get" id="searchform"   class="searchform" action="http://wordpress.zcube.in/xconsulta/">
                 <input type="text" name="s" id="search" placeholder="Search"/>
@@ -167,7 +176,7 @@
                 </ul>
              </div>
           </div>
-          <div class="offcanvas-overly"></div>
+          <div class="offcanvas-overly"></div>--}}
           <!-- offcanvas-end -->
         <!-- main-area -->
         <main>
