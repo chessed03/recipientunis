@@ -19,6 +19,15 @@
     <header class="header-area header-three">  
         <div class="header-top second-header d-none d-md-block">
              <div class="container">
+
+                <div class="row">
+                    <div class="col-12">
+                        <a href="https://ici.sistemaenlinea.com.mx/ici/index.php/students/log/in">
+                            Plataforma Alumnos
+                        </a>
+                    </div>
+                </div>
+
                  <div class="row align-items-center">      
                     
                      <div class="col-lg-4 col-md-4 d-none d-lg-block ">
