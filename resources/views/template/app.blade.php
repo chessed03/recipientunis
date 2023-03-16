@@ -26,10 +26,10 @@
                            <div class="header-social">
                                 <span>
                                     <strong>Siguenos:</strong>
-                                    <a href="{{ ___getSite()->dataSchool->facebook }}" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="{{ ___getSite()->dataSchool->instagram }}" target="_blank" title="Intagram"><i class="fab fa-instagram"></i></a>               
-                                    <a href="{{ ___getSite()->dataSchool->twitter }}" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
-                                    <a href="{{ ___getSite()->dataSchool->youtube }}" target="_blank" title="Youtube"><i class="fab fa-youtube"></i></a>
+                                    <a href="{{ ___getSite()->dataSchool->facebook  ?? '#' }}" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="{{ ___getSite()->dataSchool->instagram  ?? '#' }}" target="_blank" title="Intagram"><i class="fab fa-instagram"></i></a>               
+                                    <a href="{{ ___getSite()->dataSchool->twitter  ?? '#' }}" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+                                    <a href="{{ ___getSite()->dataSchool->youtube  ?? '#' }}" target="_blank" title="Youtube"><i class="fab fa-youtube"></i></a>
                                    </span>                    
                                    <!--  /social media icon redux -->                               
                             </div>
@@ -202,9 +202,10 @@
                                     
                                     </div>
                                  <div class="footer-social mt-10">                                    
-                                    <a href="{{ ___getSite()->dataSchool->facebook }}"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="{{ ___getSite()->dataSchool->instagram }}"><i class="fab fa-instagram"></i></a>
-                                    <a href="{{ ___getSite()->dataSchool->twitter }}"><i class="fab fa-twitter"></i></a>
+                                    <a href="{{ ___getSite()->dataSchool->facebook  ?? '#' }}"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="{{ ___getSite()->dataSchool->instagram  ?? '#' }}"><i class="fab fa-instagram"></i></a>
+                                    <a href="{{ ___getSite()->dataSchool->twitter  ?? '#' }}"><i class="fab fa-twitter"></i></a>
+                                    <a href="{{ ___getSite()->dataSchool->yotube  ?? '#' }}"><i class="fab fa-twitter"></i></a>
                                 </div>    
                             </div>
                         </div>
