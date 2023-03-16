@@ -77,7 +77,7 @@
 
             <div class="row">
                 <div class="col-12">
-                    <a href="https://ici.sistemaenlinea.com.mx/ici/index.php/students/log/in">
+                    <a href="{{ ___getSite()->dataSchool->platform_students_url ?? '#' }}">
                         <h2>Plataforma Alumnos</h2>
                     </a>
                 </div>
