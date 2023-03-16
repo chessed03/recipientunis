@@ -20,14 +20,6 @@
         <div class="header-top second-header d-none d-md-block">
              <div class="container">
 
-                <div class="row">
-                    <div class="col-12">
-                        <a href="https://ici.sistemaenlinea.com.mx/ici/index.php/students/log/in">
-                            Plataforma Alumnos
-                        </a>
-                    </div>
-                </div>
-
                  <div class="row align-items-center">      
                     
                      <div class="col-lg-4 col-md-4 d-none d-lg-block ">
@@ -82,6 +74,15 @@
         <div class="animations-10"><img src="{{ asset('templates/template-one/img/bg/an-img-04.png') }}" alt="an-img-01"></div>
         <div class="animations-08"><img src="{{ asset('templates/template-one/img/bg/an-img-05.png') }}" alt="contact-bg-an-01"></div>
         <div class="container">
+
+            <div class="row">
+                <div class="col-12">
+                    <a href="https://ici.sistemaenlinea.com.mx/ici/index.php/students/log/in">
+                        <h2>Plataforma Alumnos</h2>
+                    </a>
+                </div>
+            </div>
+
             <div class="row justify-content-center  align-items-center">
                
                 <div class="col-lg-7">
