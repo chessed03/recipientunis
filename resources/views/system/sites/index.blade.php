@@ -309,77 +309,28 @@
                     </div>
                        <div class="faq-wrap mt-30 pr-30 wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
                         <div class="accordion" id="accordionExample">
-                            <div class="card">
-                                <div class="card-header" id="headingThree">
-                                    <h2 class="mb-0">
-                                        <button class="faq-btn" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseThree"  >
-                                           01 Que habilidades destacan en tí ?
-                                        </button>
-                                    </h2>
-                                </div>
-                                <div id="collapseThree" class="collapse show" 
-                                    data-bs-parent="#accordionExample">
-                                    <div class="card-body">Nuestra comunidad está siendo llamada a reimaginar el futuro. Como la única universidad donde una escuela de diseño de renombre se une con universidades de primer nivel, estamos haciendo que el aprendizaje sea más relevante y transformador. Estamos enriquecidos por la amplia gama.
+
+                            @foreach ( $faq_questions as $faq => $faq_question )
+
+                                <div class="card">
+                                    <div class="card-header" id="heading{{ $faq }}">
+                                        <h2 class="mb-0">
+                                            <button class="faq-btn collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapse{{ $faq }}">
+                                                0{{ $faq + 1 }} {{ $faq_question->question }}
+                                            </button>
+                                        </h2>
+                                    </div>
+                                    <div id="collapse{{ $faq }}" class="collapse" 
+                                        data-bs-parent="#accordionExample">
+                                        <div class="card-body">
+                                            {{ $faq_question->answer }}
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="headingOne">
-                                    <h2 class="mb-0">
-                                        <button class="faq-btn collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseOne"  >
-                                           02 La ingeniería es tu fuerte ?
-                                        </button>
-                                    </h2>
-                                </div>
-                                <div id="collapseOne" class="collapse" data-bs-parent="#accordionExample">
-                                    <div class="card-body">Nuestra comunidad está siendo llamada a reimaginar el futuro. Como la única universidad donde una escuela de diseño de renombre se une con universidades de primer nivel, estamos haciendo que el aprendizaje sea más relevante y transformador. Estamos enriquecidos por la amplia gama.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="headingTwo">
-                                    <h2 class="mb-0">
-                                        <button class="faq-btn collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseTwo"  >
-                                          03 Eres análico de todo lo existente ?
-                                        </button>
-                                    </h2>
-                                </div>
-                                <div id="collapseTwo" class="collapse" data-bs-parent="#accordionExample">
-                                    <div class="card-body">Nuestra comunidad está siendo llamada a reimaginar el futuro. Como la única universidad donde una escuela de diseño de renombre se une con universidades de primer nivel, estamos haciendo que el aprendizaje sea más relevante y transformador. Estamos enriquecidos por la amplia gama.
-                                    </div>
-                                </div>
-                            </div>   
-                            <div class="card">
-                                <div class="card-header">
-                                    <h2 class="mb-0">
-                                        <button class="faq-btn collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseFour"  >
-                                        04 Pregunta sobre tus skills ?
-                                        </button>
-                                    </h2>
-                                </div>
-                                <div id="collapseFour" class="collapse" data-bs-parent="#accordionExample">
-                                    <div class="card-body">Nuestra comunidad está siendo llamada a reimaginar el futuro. Como la única universidad donde una escuela de diseño de renombre se une con universidades de primer nivel, estamos haciendo que el aprendizaje sea más relevante y transformador. Estamos enriquecidos por la amplia gama.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="headingFour">
-                                    <h2 class="mb-0">
-                                        <button class="faq-btn collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseFive"  >
-                                        05 Que querias ser cuando niño ?
-                                        </button>
-                                    </h2>
-                                </div>
-                                <div id="collapseFive" class="collapse" data-bs-parent="#accordionExample">
-                                    <div class="card-body">Nuestra comunidad está siendo llamada a reimaginar el futuro. Como la única universidad donde una escuela de diseño de renombre se une con universidades de primer nivel, estamos haciendo que el aprendizaje sea más relevante y transformador. Estamos enriquecidos por la amplia gama.
-                                    </div>
-                                </div>
-                            </div>
+                                
+                            @endforeach
+
                         </div>
                     </div>               
                 </div>

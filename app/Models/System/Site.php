@@ -86,5 +86,12 @@ class Site extends Model
 
     }
 
+    public static function getFaqQuestions( $id )
+    {
+    
+        return FaqQuestion::getFaqQuestions( $id );
+
+    }
+
 
 }

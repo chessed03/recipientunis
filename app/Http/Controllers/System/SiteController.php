@@ -21,12 +21,15 @@ class SiteController extends Controller
         $certifications = Site::getCertifications( $site->school_id );
 
         $posts          = Site::getPosts( $site->school_id );
+
+        $faq_questions  = Site::getFaqQuestions( $site->school_id );
         
         return view('system.sites.index', [
             'carouselImages' => $carouselImages,
             'programs'       => $programs,
             'certifications' => $certifications,
-            'posts'          => $posts      
+            'posts'          => $posts,
+            'faq_questions'  => $faq_questions
         ]);
 
     }
