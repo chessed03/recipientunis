@@ -334,48 +334,63 @@
                         </div>
                     </div>               
                 </div>
+
                 <div class="col-lg-5">
+
                     <div class="contact-bg02">
-                    <div class="section-title wow fadeInDown animated" data-animation="fadeInDown" data-delay=".4s">
-                        <h2>
-                          Contactar
-                        </h2>
-                      
-                    </div>
+
+                        <div class="section-title wow fadeInDown animated" data-animation="fadeInDown" data-delay=".4s">
+                            
+                            <h2>Contactar</h2>
                         
-                <form action="mail.php" method="post" class="contact-form mt-30 wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
-                    <div class="row">
-                    <div class="col-lg-12">
-                        <div class="contact-field p-relative c-name mb-20">                                    
-                            <input type="text" id="firstn" name="firstn" placeholder="Nombres" required>
-                        </div>                               
-                    </div>
+                        </div>
+                            
+                        <form id="senderMessage" action="#" method="post" class="contact-form mt-30 wow fadeInUp animated contactFormSender" data-animation="fadeInUp" data-delay=".4s">
+
+                            <div class="row">
+
+                                <div class="col-lg-12">
+                                    <div class="contact-field p-relative c-name mb-20">                                    
+                                        <input type="text" id="formName" name="formName" placeholder="Nombres">
+                                        <span class="text-white" id="formNameMessage" hidden><strong>Campo requerido</strong></span>                            
+                                    </div>   
+                                </div>
+                                
+                                <div class="col-lg-12">                               
+                                    <div class="contact-field p-relative c-subject mb-20">                                   
+                                        <input type="text" id="formEmail" name="formEmail" placeholder="Correo">
+                                        <span class="text-white" id="formEmailMessage" hidden><strong>Correo requerido</strong></span>                            
+                                    </div>
+                                </div>	
+
+                                <div class="col-lg-12">                               
+                                    <div class="contact-field p-relative c-subject mb-20">                                   
+                                        <input type="text" id="formPhone" name="formPhone" placeholder="Telefono">
+                                        <span class="text-white" id="formPhoneMessage" hidden><strong>Campo requerido</strong></span>
+                                    </div>
+                                </div>	
+                            
+                                <div class="col-lg-12">
+                                    <div class="contact-field p-relative c-message mb-30">                                  
+                                        <textarea name="formMessage" id="formMessage" cols="30" rows="10" placeholder="Comentarios"></textarea>
+                                    </div>
+                                    <div class="slider-btn">                                          
+                                        <button onclick="senderEmail()" class="btn ss-btn" type="button" data-animation="fadeInRight" data-delay=".8s"><span>Enviar</span> <i class="fal fa-long-arrow-right"></i></button>				
+                                    </div>                             
+                                </div>
+
+                                <div class="col-lg-12 text-center mt-4" id="statusProcessSender">
+
+                                </div>
+
+                            </div>
+                            
+                        </form>
                     
-                    <div class="col-lg-12">                               
-                        <div class="contact-field p-relative c-subject mb-20">                                   
-                            <input type="text" id="email" name="email" placeholder="Correo" required>
-                        </div>
-                    </div>		
-                    <div class="col-lg-12">                               
-                        <div class="contact-field p-relative c-subject mb-20">                                   
-                            <input type="text" id="phone" name="phone" placeholder="Telefono" required>
-                        </div>
-                    </div>	
-                  
-                    <div class="col-lg-12">
-                        <div class="contact-field p-relative c-message mb-30">                                  
-                            <textarea name="message" id="message" cols="30" rows="10" placeholder="Comentarios"></textarea>
-                        </div>
-                        <div class="slider-btn">                                          
-                                    <button class="btn ss-btn" data-animation="fadeInRight" data-delay=".8s"><span>Enviar</span> <i class="fal fa-long-arrow-right"></i></button>				
-                                </div>                             
                     </div>
-                    </div>
-                
-            </form>
-                    
-                    </div>
+
                 </div>
+
             </div>
         </div>
     </section>
@@ -713,7 +728,7 @@
 
 <script>
 
-    let url_get_data_notices = '{{ route("site-getDataNotices") }}';
+    let url_get_data_notices = '{{ route("site-get-notices") }}';
 
     let date                 = moment().format('YYYY-MM-DD');
     
@@ -726,6 +741,123 @@
         cargaAutomatica( url_get_data_notices, selectedDate );
 
     }*/
+
+    const senderEmail = () => {
+            
+            let url_sender = '{{ route("site-process-contact") }}';
+
+            let name       = $('#formName').val();
+
+            let email      = $('#formEmail').val();
+
+            let phone      = $('#formPhone').val();
+
+            let message    = $('#formMessage').val();
+
+            let pattern    = /^((([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+(\.([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+)*)|((\x22)((((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(([\x01-\x08\x0b\x0c\x0e-\x1f\x7f]|\x21|[\x23-\x5b]|[\x5d-\x7e]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(\\([\x01-\x09\x0b\x0c\x0d-\x7f]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]))))*(((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(\x22)))@((([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.)+(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))$/i;
+
+            if ( name == '' ) {
+
+                $('#formName').css('border-color', 'red');
+
+                $('#formNameMessage').removeAttr("hidden");
+
+                $('#formNameMessage').show();
+
+                return true;
+
+            } else {
+
+                $('#formName').removeAttr("style");
+
+                $('#formNameMessage').hide();
+
+            }
+
+            if ( email == '' | pattern.test( $('#formEmail').val() ) === false ) {
+
+                $('#formEmail').css('border-color', 'red');
+
+                $('#formEmailMessage').removeAttr("hidden");
+
+                $('#formEmailMessage').show();
+
+                return true;
+
+            } else {
+
+                $('#formEmail').removeAttr("style");
+
+                $('#formEmailMessage').hide();
+
+            }
+
+            if ( phone == '' ) {
+
+                $('#formPhone').css('border-color', 'red');
+
+                $('#formPhoneMessage').removeAttr("hidden");
+
+                $('#formPhoneMessage').show();
+
+                return true;
+
+            } else {
+
+                $('#formPhone').removeAttr("style");
+
+                $('#formPhoneMessage').hide();
+
+            }
+
+            $.ajax({
+
+            url      : url_sender,
+            headers  : { 'X-CSRF-TOKEN': $('meta[name="csrf-token_UWl0eGVuTg=="]').attr('content') },
+            method   : 'POST',
+            data     : { 
+                'name'    : name, 
+                'email'   : email,
+                'phone'   : phone,
+                'message' : message
+            },
+            dataType : 'json',
+            success  : function( response ) {
+                
+                $('#formName').val('');
+
+                $('#formEmail').val('');
+
+                $('#formPhone').val('');
+
+                $('#formMessage').val('');
+
+                if (parseInt(response, 0) !== 0) { 
+
+                    let messageResponse = response.split('|');
+
+                    if (messageResponse[0] === 'success') { 
+                        
+                        $('#statusProcessSender').html(`<strong><h6> ${ messageResponse[1] } </h6></li></strong>`);
+
+                    } else {
+
+                        $('#statusProcessSender').html(`<strong><h6> Error! ( ${ messageResponse[1] } )</h6></li></strong>`);
+
+                    }
+
+                }
+
+                console.log(response);
+
+            }, error : function() {
+
+                    console.log("existió un problema");
+
+                }
+            });
+
+        }
         
 </script>
 

@@ -30,7 +30,8 @@ use Illuminate\Support\Facades\Route;
             Route::get('/', 'maintenance')->name('maintenance'); #ruta temporal vista sitio en mantenimiento
             Route::post('create-surface', 'createSurface')->name('create-surface'); #ruta temporal vista sitio en mantenimiento
             Route::get('index', 'index')->name('index'); #ruta real del sitio
-            Route::post('getDataNotices', 'getDataNotices')->name('getDataNotices');
+            Route::post('get-notices', 'getNotices')->name('get-notices');
+            Route::post('process-contact', 'processContact')->name('process-contact');
 
         });
 

@@ -216,7 +216,7 @@
                 'comments' : comments
             },
             dataType : 'json',
-            success  : function( reponse ) {
+            success  : function( response ) {
                 
                 $('#name').val('');
 
