@@ -82,6 +82,14 @@
                     </a>
                 </div>
             </div>
+            <br>
+            <div class="row">
+                <div class="col-12">
+                    <a href="{{ ___getSite()->dataSchool->platform_teachers_url ?? '#' }}">
+                        <h2>Plataforma Docentes</h2>
+                    </a>
+                </div>
+            </div>
 
             <div class="row justify-content-center  align-items-center">
                
