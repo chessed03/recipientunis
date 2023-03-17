@@ -35,7 +35,7 @@ class Site extends Model
         $query = self::where('server_name', $server)
             ->where('status', self::ALIVE)
             ->first();
-
+            
         if ( $query ) {
 
             $result = $query;
@@ -91,6 +91,11 @@ class Site extends Model
     
         return FaqQuestion::getFaqQuestions( $id );
 
+    }
+
+    public static function getLatestPosts( $school_id )
+    {
+        return Post::getLatestPosts( $school_id );
     }
 
 

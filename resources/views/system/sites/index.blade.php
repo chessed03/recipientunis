@@ -233,7 +233,7 @@
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="step-img wow fadeInLeft animated" data-animation="fadeInLeft" data-delay=".4s">
-                        <img src="https://icipuebla.com/wp-content/uploads/2022/06/SLIDEPREPA.png" alt="class image">
+                        <img src="https://ipes2.s3.us-east-2.amazonaws.com/641494ce90083-steps-img.png" alt="class image">
                     </div>
                    
                 </div>
@@ -275,20 +275,20 @@
     </section>
    <!-- courses-area -->
     <!-- cta-area -->
-    <section class="cta-area cta-bg pt-50 pb-50" style="background-image:url({{ asset('templates/template-one/img/bg/cta_bg02.png') }})">
+    <section class="cta-area cta-bg pt-50 pb-50" style="background-image:url('https://ipes2.s3.us-east-2.amazonaws.com/641492fb8e710-cta_bg02.png')">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="section-title cta-title wow fadeInLeft animated" data-animation="fadeInDown animated" data-delay=".2s">
                         <h2>Programas de Becas</h2>
-                        <p>En la Universidad de Estuidar, lo preparamos para iniciar su carrera al proporcionar un entorno de apoyo, creativo y profesional desde el cual aprender habilidades prácticas y construir una red de contactos en la industria.</p>
+                        <p>En {{ ___getSite()->dataSchool->name }}, lo preparamos para iniciar su carrera al proporcionar un entorno de apoyo, creativo y profesional desde el cual aprender habilidades prácticas y construir una red de contactos en la industria.</p>
                     </div>
                                      
                 </div>
                 <div class="col-lg-4 text-right"> 
                     <div class="cta-btn s-cta-btn wow fadeInRight animated mt-30" data-animation="fadeInDown animated" data-delay=".2s">
-                              <a href="#" class="btn ss-btn smoth-scroll">Ayuda financiera <i class="fal fa-long-arrow-right"></i></a>			
-                        </div>
+                        {{--<a href="#" class="btn ss-btn smoth-scroll">Ayuda financiera <i class="fal fa-long-arrow-right"></i></a>--}}			
+                    </div>
                 </div>
             
             </div>
@@ -396,13 +396,13 @@
     </section>
     <!-- frequently-area-end -->	
     <!-- video-area -->
-    <section class="cta-area cta-bg pt-160 pb-160" style="background-image:url({{ asset('templates/template-one/img/bg/cta_bg.png') }})">
+    <section class="cta-area cta-bg pt-160 pb-160" style="background-image:url('https://ipes2.s3.us-east-2.amazonaws.com/641493ec46a27-cta_bg.png')">
         <div class="container">
             <div class="row justify-content-center  align-items-center">
                 <div class="col-xl-6 col-lg-6 col-md-12">
                     <div class="section-title cta-title video-title wow fadeInLeft animated" data-animation="fadeInDown animated" data-delay=".2s">
-                        <h2> Que hace <span>ICI</span> Diferente</h2>
-                        <p>Nuestra comunidad está siendo llamada a reimaginar el futuro. Como la única universidad donde una escuela de diseño de renombre, </p>	
+                        <h2> Que hace <span>{{ ___getSite()->dataSchool->name }}</span> Diferente</h2>
+                        <p>Nuestra comunidad está siendo llamada a reimaginar el futuro. Como la única universidad donde una escuela de diseño de renombre</p>	
                     </div>
                                      
                 </div>
@@ -411,6 +411,7 @@
                <div class="col-lg-4">
 
                         <div class="s-video-content">
+
                             <a href="https://www.youtube.com/watch?v=wfRwYN3BhJ0&list=TLGGyTpTH5ac8HUxMTAzMjAyMw&t=3s" class="popup-video mb-50"><img src="{{ asset('templates/template-one/img/bg/play-button.png') }}" alt="circle_right"></a>
                            
                         </div>
@@ -510,7 +511,7 @@
     </section>
     <!-- testimonial-area-end -->
     <!-- search-area -->
-    <section class="search-area pt-120 pb-120 p-relative fix" style="background-image:url({{ asset('templates/template-one/img/bg/search_bg.png') }});  background-position: center center; background-repeat: no-repeat; background-size: cover;">
+    <section class="search-area pt-120 pb-120 p-relative fix" style="background-image:url('https://ipes2.s3.us-east-2.amazonaws.com/641496b606c71-search_bg.png');  background-position: center center; background-repeat: no-repeat; background-size: cover;">
         <div class="animations-10"><img src="{{ asset('templates/template-one/img/bg/an-img-04.png') }}" alt="an-img-01"></div>
         <div class="animations-08"><img src="{{ asset('templates/template-one/img/bg/an-img-05.png') }}" alt="contact-bg-an-01"></div>
         <div class="container">
@@ -597,7 +598,7 @@
             <div class="row justify-content-center align-items-center">
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="s-about-img p-relative  wow fadeInLeft animated" data-animation="fadeInLeft" data-delay=".4s">
-                        <img src="{{ asset('templates/template-one/img/features/about_img.png') }}" alt="img">                              
+                        <img src="https://ipes2.s3.us-east-2.amazonaws.com/6414954a7a75c-about_img.png" alt="img">                              
                     </div>                          
                 </div>
                 
@@ -609,7 +610,7 @@
                         <p class="txt-clr">Nuestra comunidad está siendo llamada a reimaginar el futuro. Como la única universidad donde una escuela de diseño de renombre se une con universidades de primer nivel, estamos haciendo que el aprendizaje sea más relevante y transformador.</p>
                         <p class="txt-clr">En la Universidad de Estuidar, lo preparamos para iniciar su carrera en un entorno profesional, creativo y de apoyo desde el cual aprender habilidades prácticas y construir una red de contactos en la industria.</p>
                         <div class="slider-btn mt-20">                                          
-                            <a href="#" class="btn ss-btn smoth-scroll">Leer más <i class="fal fa-long-arrow-right"></i></a>				
+                            {{--<a href="#" class="btn ss-btn smoth-scroll">Leer más <i class="fal fa-long-arrow-right"></i></a>--}}				
                         </div>
                     </div>
                 </div>
@@ -647,7 +648,7 @@
                     <div class="section-title center-align mb-50 text-center wow fadeInDown animated" data-animation="fadeInDown" data-delay=".4s">
                         <h5><i class="fal fa-graduation-cap"></i> Nuestro Posts</h5>
                         <h2>
-                            Posts y Noticias más recientes
+                            Posts y noticias más recientes
                         </h2>
                     
                     </div>

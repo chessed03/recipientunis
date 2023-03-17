@@ -69,4 +69,31 @@ class Post extends Model
 
     }
 
+    public static function getLatestPosts( $school_id )
+    {
+
+        $result = null;
+
+        if ( $school_id ) {
+
+            $school_id = implode( ',', [ $school_id ] );
+
+            $query     = self::whereJsonContains('schools', $school_id)
+                ->where('status', self::ALIVE)
+                ->orderBy('created_at', 'desc')
+                ->take(2)
+                ->get();
+
+            if ( $query ) {
+
+                $result = $query;
+
+            }
+
+        }
+
+        return $result;
+
+    }
+
 }

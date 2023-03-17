@@ -44,7 +44,7 @@
                                          </div>
                                          <div class="text">
                                             <span>Teléfono</span>
-                                            <strong><a href="tel:+917052101786">{{ ___getSite()->dataSchool->phone_main }}</a></strong>                                              
+                                            <strong><a href="tel:{{ ___getSite()->dataSchool->phone_main }}">{{ ___getSite()->dataSchool->phone_main }}</a></strong>                                              
                                          </div>
                                       </div>
                                    </li>
@@ -217,10 +217,11 @@
                                 <div class="footer-link">
                                     <ul>                                        
                                         <li><a href="#">Home</a></li>
-                                        <li><a href="#"> Conócenos</a></li>
-                                        <li><a href="#">Cursos</a></li>
-                                        <li><a href="#"> Contactanos</a></li>
-                                        <li><a href="#">Blog </a></li>
+                                        <li><a href="#knowUs">Conócenos</a></li>
+                                        <li><a href="#programs">Programas</a></li>
+                                        <li><a href="#events">Eventos</a></li>
+                                        <li><a href="#posts">Posts</a></li>
+                                        <li><a href="#contact">Contacto</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -232,18 +233,17 @@
                                 </div>
                                 <div class="recent-blog-footer">
                                     <ul>
-                                        <li>
-                                            <div class="thum"> <img src="{{ asset('templates/template-one/img/blog/s-blogimg-01.png') }}" alt="img"></div>
-                                            <div class="text"> <a href="blog-details.html">Nada es imposible, cuando la constancia y la perseverancia actúan en ti.</a>
-                                            <span>13 Marzo, 2023</span></div>
-                                        </li>
+
+                                        @foreach ( ___getLatestPosts() as $lat => $latestPost )
                                         
-                                        <li>
-                                            <div class="thum"> <img src="{{ asset('templates/template-one/img/blog/s-blogimg-02.png') }}" alt="img"></div>
-                                            <div class="text"> <a href="blog-details.html">Nada es imposible, cuando la constancia y la perseverancia actúan en ti.</a>
-                                            <span>13 Marzo, 2023</span></div>
-                                        </li>
-                                    
+                                            <li>
+                                                <div class="thum"> <img src="{{ $latestPost->image_feature_url ?? asset('templates/template-one/img/blog/s-blogimg-01.png') }}" alt="img"></div>
+                                                <div class="text"> <a href="{{ route('post-show', ['slug' => $latestPost->slug] ) }}">{{ $latestPost->title }}</a>
+                                                <span>{{ \Carbon\Carbon::createFromDate($latestPost->created_at)->isoFormat('DD') }} de {{ \Carbon\Carbon::createFromDate($latestPost->created_at)->isoFormat('MMMM') }}, {{ \Carbon\Carbon::createFromDate($latestPost->created_at)->isoFormat('YYYY') }}</span></div>
+                                            </li>
+                                            
+                                        @endforeach
+                                                                            
                                     </ul>
                                    
                                      
