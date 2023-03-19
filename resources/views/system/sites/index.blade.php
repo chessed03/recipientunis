@@ -38,7 +38,7 @@
         </div>
             
     </section>
-    <!-- slider-area-end end-->
+    <!-- slider-area-end -->
      <!-- service-area -->
     {{--<section class="service-details-two p-relative">
         <div class="container">
