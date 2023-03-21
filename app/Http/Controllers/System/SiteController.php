@@ -23,6 +23,8 @@ class SiteController extends Controller
         $posts          = Site::getPosts( $site->school_id );
 
         $faq_questions  = Site::getFaqQuestions( $site->school_id );
+
+        $video          = Video::getVideo( $site->school_id );
         
         return view('system.sites.index', [
             'carouselImages' => $carouselImages,
